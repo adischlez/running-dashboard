@@ -1,0 +1,12 @@
+# Never commit raw Garmin exports or anything with activity clock times
+*.csv
+Activities*.csv
+runs_parsed.*
+__pycache__/
+.DS_Store
+.venv/
+*.pyc
+
+# Local scratch
+/tmp/
+build.py

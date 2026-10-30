@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>דשבורד ריצה — Adi Schlesinger</title>
+  <meta name="description" content="סיכום ריצה ובריאות מצטבר מנתוני Garmin" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.6/dist/chart.umd.min.js"></script>
+  <style>
+    :root {
+      --bg: #0d1117;
+      --bg2: #161b22;
+      --bg3: #21262d;
+      --card: #161b22;
+      --border: #30363d;
+      --text: #e6edf3;
+      --muted: #8b949e;
+      --accent: #e23b3b;
+      --accent-dim: rgba(226, 59, 59, 0.18);
+      --accent2: #58a6ff;
+      --good: #3fb950;
+      --warn: #d29922;
+      --band: rgba(63, 185, 80, 0.12);
+      --radius: 16px;
+      --shadow: 0 8px 24px rgba(0,0,0,.35);
+      --font: "Segoe UI", "Heebo", "Rubik", system-ui, sans-serif;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; background: var(--bg); color: var(--text); font-family: var(--font); }
+    body { min-height: 100vh; }
+    a { color: var(--accent2); }
+    .wrap { max-width: 1180px; margin: 0 auto; padding: 1.25rem 1rem 3rem; }
+
+    header.hero {
+      display: flex; gap: 1.25rem; align-items: center; flex-wrap: wrap;
+      background: linear-gradient(135deg, var(--bg2), #1a0f12 60%, var(--bg2));
+      border: 1px solid var(--border); border-radius: calc(var(--radius) + 4px);
+      padding: 1.25rem 1.5rem; box-shadow: var(--shadow); margin-bottom: 1.25rem;
+    }
+    .avatar {
+      width: 112px; height: 112px; border-radius: 50%;
+      object-fit: cover; object-position: center 20%;
+      border: 3px solid var(--accent);
+      box-shadow: 0 0 0 6px var(--accent-dim), var(--shadow);
+      flex-shrink: 0;
+    }
+    .hero-text h1 { margin: 0 0 .35rem; font-size: clamp(1.4rem, 3vw, 2rem); letter-spacing: -.02em; }
+    .hero-text .tagline { color: var(--muted); margin: 0 0 .6rem; font-size: .95rem; }
+    .pill {
+      display: inline-block; background: var(--accent-dim); color: var(--accent);
+      border: 1px solid rgba(226,59,59,.35); border-radius: 999px;
+      padding: .2rem .7rem; font-size: .78rem; font-weight: 600;
+    }
+    .controls {
+      display: flex; flex-wrap: wrap; gap: .75rem; align-items: center;
+      margin-bottom: 1rem; background: var(--bg2); border: 1px solid var(--border);
+      border-radius: var(--radius); padding: .75rem 1rem;
+    }
+    .controls label { color: var(--muted); font-size: .85rem; display: flex; gap: .4rem; align-items: center; }
+    .controls input[type="date"], .controls select {
+      background: var(--bg3); color: var(--text); border: 1px solid var(--border);
+      border-radius: 8px; padding: .35rem .5rem; font: inherit;
+    }
+    .controls button {
+      background: var(--accent); color: #fff; border: 0; border-radius: 8px;
+      padding: .4rem .9rem; font: inherit; font-weight: 600; cursor: pointer;
+    }
+    .controls button.ghost { background: transparent; color: var(--muted); border: 1px solid var(--border); }
+    .controls button:hover { filter: brightness(1.08); }
+
+    .kpis { display: grid; grid-template-columns: repeat(4, 1fr); gap: .75rem; margin-bottom: 1rem; }
+    .kpi {
+      background: var(--card); border: 1px solid var(--border); border-radius: var(--radius);
+      padding: 1rem 1.1rem; box-shadow: var(--shadow);
+    }
+    .kpi .label { color: var(--muted); font-size: .8rem; margin-bottom: .25rem; }
+    .kpi .value { font-size: clamp(1.35rem, 2.5vw, 1.85rem); font-weight: 700; letter-spacing: -.02em; }
+    .kpi .sub { color: var(--muted); font-size: .75rem; margin-top: .2rem; }
+    .kpi.accent { border-color: rgba(226,59,59,.45); background: linear-gradient(180deg, #221014, var(--card)); }
+
+    .grid { display: grid; grid-template-columns: 1fr 1fr; gap: .9rem; }
+    .card {
+      background: var(--card); border: 1px solid var(--border); border-radius: var(--radius);
+      padding: 1rem 1.1rem 1.15rem; box-shadow: var(--shadow); min-width: 0;
+    }
+    .card.full { grid-column: 1 / -1; }
+    .card h2 { margin: 0 0 .75rem; font-size: 1.05rem; font-weight: 650; }
+    .card h2 span { color: var(--muted); font-weight: 500; font-size: .8rem; margin-inline-start: .4rem; }
+    .chart-box { position: relative; height: 280px; }
+    .chart-box.tall { height: 320px; }
+    .note { color: var(--muted); font-size: .78rem; margin-top: .5rem; line-height: 1.4; }
+
+    .prs { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: .6rem; }
+    .pr {
+      background: var(--bg3); border: 1px solid var(--border); border-radius: 12px;
+      padding: .75rem; text-align: center;
+    }
+    .pr .plabel { color: var(--muted); font-size: .75rem; }
+    .pr .pvalue { font-size: 1.2rem; font-weight: 700; color: var(--accent); margin-top: .2rem; direction: ltr; unicode-bidi: isolate; }
+    .pr .pnote { color: var(--muted); font-size: .68rem; margin-top: .15rem; }
+
+    footer {
+      margin-top: 1.75rem; color: var(--muted); font-size: .78rem; text-align: center;
+      border-top: 1px solid var(--border); padding-top: 1rem;
+    }
+
+    @media (max-width: 860px) {
+      .kpis { grid-template-columns: 1fr 1fr; }
+      .grid { grid-template-columns: 1fr; }
+      .avatar { width: 88px; height: 88px; }
+    }
+    @media (max-width: 480px) {
+      .kpis { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="hero">
+      <img class="avatar" src="assets/hero.jpg" width="112" height="112"
+           alt="דיוקן אחרי ריצה — כובע אדום ומשקפי ספורט" />
+      <div class="hero-text">
+        <h1>דשבורד ריצה של Adi</h1>
+        <p class="tagline">סיכום פעילות ובריאות מ־Garmin</p>
+        <span class="pill" id="coveragePill">טוען…</span>
+      </div>
+    </header>
+
+    <div class="controls">
+      <label>מתאריך
+        <input type="date" id="fromDate" />
+      </label>
+      <label>עד תאריך
+        <input type="date" id="toDate" />
+      </label>
+      <button type="button" id="applyRange">החל טווח</button>
+      <button type="button" class="ghost" id="resetRange">איפוס</button>
+      <label style="margin-inline-start:auto">
+        <input type="checkbox" id="toggleHealth" checked /> הצג בריאות
+      </label>
+    </div>
+
+    <section class="kpis" id="kpis"></section>
+
+    <section class="grid">
+      <div class="card full">
+        <h2>ק״מ חודשי <span>עמודות</span></h2>
+        <div class="chart-box tall"><canvas id="chartMonthly"></canvas></div>
+      </div>
+
+      <div class="card full">
+        <h2>ק״מ שבועי <span>עם ממוצע נע 4 שבועות</span></h2>
+        <div class="chart-box tall"><canvas id="chartWeekly"></canvas></div>
+      </div>
+
+      <div class="card full">
+        <h2>יחס עומס חריף:כרוני <span>רצועת 0.8–1.3 מסומנת</span></h2>
+        <div class="chart-box tall"><canvas id="chartAC"></canvas></div>
+        <p class="note">יחס = ק״מ ב־7 ימים ÷ ממוצע שבועי של 28 ימים. מעל ~1.3 נחשב אזור זהירות נפוץ.</p>
+      </div>
+
+      <div class="card">
+        <h2>טיפוס למטר לק״מ <span>לפי חודש</span></h2>
+        <div class="chart-box"><canvas id="chartClimb"></canvas></div>
+      </div>
+
+      <div class="card">
+        <h2>קצב מול דופק ממוצע <span>ריצות קלות בלבד</span></h2>
+        <div class="chart-box"><canvas id="chartEasy"></canvas></div>
+        <p class="note">ריצות בקצב 5:20–6:20 לדקה/ק״מ.</p>
+      </div>
+
+      <div class="card">
+        <h2>התפלגות מרחקי ריצה</h2>
+        <div class="chart-box"><canvas id="chartDist"></canvas></div>
+      </div>
+
+      <div class="card">
+        <h2>התפלגות לפי יום בשבוע</h2>
+        <div class="chart-box"><canvas id="chartDow"></canvas></div>
+      </div>
+
+      <div class="card full" id="healthSection">
+        <h2>מדדי בריאות שבועיים</h2>
+        <div class="chart-box tall"><canvas id="chartHealth"></canvas></div>
+        <p class="note">דופק מנוחה, HRV, שינה (משך), סטרס, Body Battery גבוה.</p>
+      </div>
+
+      <div class="card">
+        <h2>VO2max חודשי</h2>
+        <div class="chart-box"><canvas id="chartVo2"></canvas></div>
+      </div>
+
+      <div class="card">
+        <h2>משקל שבועי</h2>
+        <div class="chart-box"><canvas id="chartWeight"></canvas></div>
+      </div>
+
+      <div class="card">
+        <h2>ק״מ שבועי מול סטרס</h2>
+        <div class="chart-box"><canvas id="chartScatter"></canvas></div>
+      </div>
+
+      <div class="card">
+        <h2>שיאים אישיים וחיזוי</h2>
+        <div class="prs" id="prs"></div>
+        <p class="note" style="margin-top:.75rem">חיזוי Garmin Race Predictor נוכחי.</p>
+        <div class="prs" id="predict" style="margin-top:.6rem"></div>
+      </div>
+
+      <div class="card full">
+        <h2>הריצות הארוכות ביותר</h2>
+        <div class="chart-box"><canvas id="chartLongest"></canvas></div>
+      </div>
+    </section>
+
+    <footer>
+      נתונים מצטברים מ־Garmin Connect · נבנה מקומית ופורסם ב־GitHub Pages
+    </footer>
+  </div>
+
+  <script>
+  const ACCENT = '#e23b3b';
+  const BLUE = '#58a6ff';
+  const GREEN = '#3fb950';
+  const YELLOW = '#d29922';
+  const MUTED = '#8b949e';
+  const GRID = 'rgba(48,54,61,.85)';
+
+  Chart.defaults.color = MUTED;
+  Chart.defaults.borderColor = GRID;
+  Chart.defaults.font.family = getComputedStyle(document.body).fontFamily;
+
+  const charts = {};
+  let DATA = {};
+
+  async function loadJSON(path) {
+    const r = await fetch(path);
+    if (!r.ok) throw new Error('failed ' + path);
+    return r.json();
+  }
+
+  function inRange(dateStr, from, to) {
+    if (!dateStr) return true;
+    if (from && dateStr < from) return false;
+    if (to && dateStr > to) return false;
+    return true;
+  }
+
+  function monthInRange(month, from, to) {
+    // month YYYY-MM — compare against date bounds loosely
+    const start = month + '-01';
+    const end = month + '-28';
+    if (from && end < from) return false;
+    if (to && start > to) return false;
+    return true;
+  }
+
+  function destroyAll() {
+    Object.values(charts).forEach(c => { try { c.destroy(); } catch(e){} });
+    for (const k of Object.keys(charts)) delete charts[k];
+  }
+
+  function kpiCard(label, value, sub, accent) {
+    return `<div class="kpi${accent ? ' accent' : ''}"><div class="label">${label}</div><div class="value">${value}</div>${sub ? `<div class="sub">${sub}</div>` : ''}</div>`;
+  }
+
+  function renderKpis(meta, monthly) {
+    const filtered = monthly;
+    const km = filtered.reduce((s, m) => s + m.km, 0);
+    const runs = filtered.reduce((s, m) => s + m.runs, 0);
+    let rec = filtered[0];
+    for (const m of filtered) if (!rec || m.km > rec.km) rec = m;
+    document.getElementById('kpis').innerHTML = [
+      kpiCard('ריצות', runs.toLocaleString('he-IL'), meta.coverage_start + ' → ' + meta.coverage_end, false),
+      kpiCard('סה״כ ק״מ', km.toLocaleString('he-IL', {maximumFractionDigits: 1}), 'בטווח הנבחר', true),
+      kpiCard('שיא חודשי', (rec ? rec.km.toLocaleString('he-IL', {maximumFractionDigits: 1}) : '—') + ' ק״מ', rec ? rec.month : '', false),
+      kpiCard('VO2max', String(meta.vo2max), 'ערך אחרון', false),
+    ].join('');
+  }
+
+  function renderPrs(meta) {
+    document.getElementById('prs').innerHTML = meta.prs.map(p =>
+      `<div class="pr"><div class="plabel">${p.label}</div><div class="pvalue">${p.value}</div><div class="pnote">${p.note || ''}</div></div>`
+    ).join('');
+    document.getElementById('predict').innerHTML = '<div class="pr" style="grid-column:1/-1;background:transparent;border:0;padding:.2rem;text-align:right;color:var(--muted);font-size:.8rem">חיזוי נוכחי (Race Predictor)</div>' +
+      meta.race_predictor.map(p =>
+        `<div class="pr"><div class="plabel">${p.label}</div><div class="pvalue" style="color:var(--accent2)">${p.value}</div><div class="pnote">משך משוער</div></div>`
+      ).join('');
+  }
+
+  function lineOpts(yTitle) {
+    return {
+      responsive: true, maintainAspectRatio: false,
+      interaction: { mode: 'index', intersect: false },
+      plugins: { legend: { position: 'top', rtl: true, labels: { boxWidth: 12 } } },
+      scales: {
+        x: { ticks: { maxRotation: 0, autoSkipPadding: 8 }, grid: { color: GRID } },
+        y: { title: { display: !!yTitle, text: yTitle }, grid: { color: GRID } },
+      }
+    };
+  }
+
+  function buildCharts(from, to) {
+    destroyAll();
+    const monthly = DATA.monthly.filter(m => monthInRange(m.month, from, to));
+    const weekly = DATA.weekly.filter(w => inRange(w.week_start, from, to));
+    const ac = DATA.acute.filter(d => inRange(d.date, from, to));
+    const easy = DATA.easy.filter(m => monthInRange(m.month, from, to));
+    const health = DATA.health.weekly.filter(w => inRange(w.week_start, from, to));
+    const vo2 = DATA.health.vo2max_monthly.filter(m => monthInRange(m.month, from, to));
+    const scatter = DATA.health.km_vs_stress.filter(p => inRange(p.week_start, from, to));
+    const longest = DATA.longest.filter(r => inRange(r.date, from, to));
+
+    renderKpis(DATA.meta, monthly);
+
+    charts.monthly = new Chart(document.getElementById('chartMonthly'), {
+      type: 'bar',
+      data: {
+        labels: monthly.map(m => m.month),
+        datasets: [{
+          label: 'ק״מ',
+          data: monthly.map(m => m.km),
+          backgroundColor: ACCENT,
+          borderRadius: 6,
+        }]
+      },
+      options: lineOpts('ק״מ')
+    });
+
+    charts.weekly = new Chart(document.getElementById('chartWeekly'), {
+      type: 'bar',
+      data: {
+        labels: weekly.map(w => w.week_start),
+        datasets: [
+          {
+            type: 'bar', label: 'ק״מ שבועי', data: weekly.map(w => w.km),
+            backgroundColor: 'rgba(226,59,59,.55)', borderRadius: 4, order: 2,
+          },
+          {
+            type: 'line', label: 'ממוצע 4 שבועות', data: weekly.map(w => w.km_roll4),
+            borderColor: BLUE, backgroundColor: BLUE, tension: .25, pointRadius: 0, borderWidth: 2, order: 1,
+          }
+        ]
+      },
+      options: lineOpts('ק״מ')
+    });
+
+    // Acute:chronic with shaded band via plugin
+    const bandPlugin = {
+      id: 'acBand',
+      beforeDraw(chart) {
+        const {ctx, chartArea, scales} = chart;
+        if (!chartArea || !scales.y) return;
+        const yHigh = scales.y.getPixelForValue(1.3);
+        const yLow = scales.y.getPixelForValue(0.8);
+        ctx.save();
+        ctx.fillStyle = 'rgba(63,185,80,0.12)';
+        ctx.fillRect(chartArea.left, yHigh, chartArea.right - chartArea.left, yLow - yHigh);
+        ctx.restore();
+      }
+    };
+
+    charts.ac = new Chart(document.getElementById('chartAC'), {
+      type: 'line',
+      data: {
+        labels: ac.map(d => d.date),
+        datasets: [{
+          label: 'יחס AC',
+          data: ac.map(d => d.ac_ratio),
+          borderColor: ACCENT, pointRadius: 0, borderWidth: 1.5, tension: .1,
+        }]
+      },
+      options: {
+        ...lineOpts('יחס'),
+        plugins: {
+          legend: { display: false },
+          tooltip: { callbacks: { label: (c) => `יחס: ${c.parsed.y}` } }
+        }
+      },
+      plugins: [bandPlugin]
+    });
+
+    charts.climb = new Chart(document.getElementById('chartClimb'), {
+      type: 'line',
+      data: {
+        labels: monthly.map(m => m.month),
+        datasets: [{
+          label: 'מ׳ / ק״מ',
+          data: monthly.map(m => m.ascent_per_km),
+          borderColor: YELLOW, backgroundColor: 'rgba(210,153,34,.2)',
+          fill: true, tension: .25, pointRadius: 2,
+        }]
+      },
+      options: lineOpts('מ׳ לק״מ')
+    });
+
+    charts.easy = new Chart(document.getElementById('chartEasy'), {
+      type: 'line',
+      data: {
+        labels: easy.map(m => m.month),
+        datasets: [
+          {
+            label: 'דופק ממוצע',
+            data: easy.map(m => m.avg_hr),
+            borderColor: ACCENT, yAxisID: 'y', tension: .25, pointRadius: 2,
+          },
+          {
+            label: 'קצב (שניות לק״מ)',
+            data: easy.map(m => m.avg_pace_sec),
+            borderColor: BLUE, yAxisID: 'y1', tension: .25, pointRadius: 2,
+          }
+        ]
+      },
+      options: {
+        responsive: true, maintainAspectRatio: false,
+        interaction: { mode: 'index', intersect: false },
+        plugins: {
+          legend: { position: 'top', rtl: true, labels: { boxWidth: 12 } },
+          tooltip: {
+            callbacks: {
+              afterBody(items) {
+                const i = items[0]?.dataIndex;
+                if (i == null) return '';
+                return 'קצב: ' + (easy[i]?.avg_pace_label || '');
+              }
+            }
+          }
+        },
+        scales: {
+          x: { grid: { color: GRID } },
+          y: { position: 'right', title: { display: true, text: 'דופק' }, grid: { color: GRID } },
+          y1: { position: 'left', title: { display: true, text: 'שנ׳ לק״מ (קצב)' }, grid: { drawOnChartArea: false }, reverse: true }
+        }
+      }
+    });
+
+    charts.dist = new Chart(document.getElementById('chartDist'), {
+      type: 'bar',
+      data: {
+        labels: DATA.dist.map(d => d.bin_km + ' ק״מ'),
+        datasets: [{ label: 'מספר ריצות', data: DATA.dist.map(d => d.count), backgroundColor: BLUE, borderRadius: 6 }]
+      },
+      options: lineOpts('ריצות')
+    });
+
+    charts.dow = new Chart(document.getElementById('chartDow'), {
+      type: 'bar',
+      data: {
+        labels: DATA.dow.map(d => d.day),
+        datasets: [
+          { label: 'ק״מ', data: DATA.dow.map(d => d.km), backgroundColor: ACCENT, borderRadius: 6, yAxisID: 'y' },
+          { label: 'ריצות', data: DATA.dow.map(d => d.runs), backgroundColor: 'rgba(88,166,255,.55)', borderRadius: 6, yAxisID: 'y1' },
+        ]
+      },
+      options: {
+        responsive: true, maintainAspectRatio: false,
+        plugins: { legend: { position: 'top', rtl: true, labels: { boxWidth: 12 } } },
+        scales: {
+          x: { grid: { color: GRID } },
+          y: { position: 'right', title: { display: true, text: 'ק״מ' }, grid: { color: GRID } },
+          y1: { position: 'left', title: { display: true, text: 'ריצות' }, grid: { drawOnChartArea: false } }
+        }
+      }
+    });
+
+    charts.health = new Chart(document.getElementById('chartHealth'), {
+      type: 'line',
+      data: {
+        labels: health.map(w => w.week_start),
+        datasets: [
+          { label: 'דופק מנוחה', data: health.map(w => w.rhr), borderColor: ACCENT, pointRadius: 0, borderWidth: 1.5, yAxisID: 'y' },
+          { label: 'HRV (מ״ש)', data: health.map(w => w.hrv_ms), borderColor: GREEN, pointRadius: 0, borderWidth: 1.5, yAxisID: 'y' },
+          { label: 'שינה (משך)', data: health.map(w => w.sleep_hrs), borderColor: BLUE, pointRadius: 0, borderWidth: 1.5, yAxisID: 'y' },
+          { label: 'סטרס', data: health.map(w => w.stress), borderColor: YELLOW, pointRadius: 0, borderWidth: 1.5, yAxisID: 'y1' },
+          { label: 'BB גבוה', data: health.map(w => w.bb_high), borderColor: '#a371f7', pointRadius: 0, borderWidth: 1.5, yAxisID: 'y1' },
+        ]
+      },
+      options: {
+        responsive: true, maintainAspectRatio: false,
+        interaction: { mode: 'index', intersect: false },
+        plugins: { legend: { position: 'top', rtl: true, labels: { boxWidth: 10, font: { size: 11 } } } },
+        scales: {
+          x: { ticks: { autoSkipPadding: 10 }, grid: { color: GRID } },
+          y: { position: 'right', title: { display: true, text: 'RHR / HRV / שינה' }, grid: { color: GRID } },
+          y1: { position: 'left', title: { display: true, text: 'סטרס / BB' }, grid: { drawOnChartArea: false } }
+        }
+      }
+    });
+
+    charts.vo2 = new Chart(document.getElementById('chartVo2'), {
+      type: 'line',
+      data: {
+        labels: vo2.map(m => m.month),
+        datasets: [{ label: 'VO2max', data: vo2.map(m => m.vo2max), borderColor: GREEN, fill: true, backgroundColor: 'rgba(63,185,80,.15)', tension: .25, pointRadius: 3 }]
+      },
+      options: lineOpts('VO2max')
+    });
+
+    const weightPts = health.filter(w => w.weight_kg != null);
+    charts.weight = new Chart(document.getElementById('chartWeight'), {
+      type: 'line',
+      data: {
+        labels: weightPts.map(w => w.week_start),
+        datasets: [{ label: 'ק״ג', data: weightPts.map(w => w.weight_kg), borderColor: '#f778ba', tension: .25, pointRadius: 2 }]
+      },
+      options: lineOpts('ק״ג')
+    });
+
+    charts.scatter = new Chart(document.getElementById('chartScatter'), {
+      type: 'scatter',
+      data: {
+        datasets: [{
+          label: 'שבוע',
+          data: scatter.map(p => ({ x: p.km, y: p.stress })),
+          backgroundColor: 'rgba(226,59,59,.7)',
+        }]
+      },
+      options: {
+        responsive: true, maintainAspectRatio: false,
+        plugins: {
+          legend: { display: false },
+          tooltip: {
+            callbacks: {
+              label(c) { return `ק״מ: ${c.parsed.x}, סטרס: ${c.parsed.y}`; }
+            }
+          }
+        },
+        scales: {
+          x: { title: { display: true, text: 'ק״מ בשבוע' }, grid: { color: GRID } },
+          y: { title: { display: true, text: 'סטרס ממוצע' }, grid: { color: GRID } }
+        }
+      }
+    });
+
+    charts.longest = new Chart(document.getElementById('chartLongest'), {
+      type: 'bar',
+      data: {
+        labels: longest.map(r => r.date),
+        datasets: [{
+          label: 'ק״מ',
+          data: longest.map(r => r.km),
+          backgroundColor: ACCENT, borderRadius: 6,
+        }]
+      },
+      options: {
+        ...lineOpts('ק״מ'),
+        plugins: {
+          legend: { display: false },
+          tooltip: {
+            callbacks: {
+              afterBody(items) {
+                const i = items[0]?.dataIndex;
+                const r = longest[i];
+                if (!r) return '';
+                return [r.pace_label ? 'קצב: ' + r.pace_label : '', r.avg_hr ? 'דופק ממוצע: ' + r.avg_hr : ''].filter(Boolean);
+              }
+            }
+          }
+        }
+      }
+    });
+  }
+
+  async function main() {
+    const [meta, monthly, weekly, acute, easy, dist, dow, health, longest] = await Promise.all([
+      loadJSON('data/meta.json'),
+      loadJSON('data/monthly.json'),
+      loadJSON('data/weekly.json'),
+      loadJSON('data/acute_chronic.json'),
+      loadJSON('data/easy_pace_hr.json'),
+      loadJSON('data/distance_dist.json'),
+      loadJSON('data/dow.json'),
+      loadJSON('data/health.json'),
+      loadJSON('data/longest.json'),
+    ]);
+    DATA = { meta, monthly, weekly, acute, easy, dist, dow, health, longest };
+
+    document.getElementById('coveragePill').textContent =
+      `${meta.total_runs.toLocaleString('he-IL')} ריצות · ${meta.total_km.toLocaleString('he-IL')} ק״מ · ${meta.coverage_start} → ${meta.coverage_end}`;
+
+    const fromEl = document.getElementById('fromDate');
+    const toEl = document.getElementById('toDate');
+    fromEl.min = meta.coverage_start; fromEl.max = meta.coverage_end;
+    toEl.min = meta.coverage_start; toEl.max = meta.coverage_end;
+    fromEl.value = meta.coverage_start; toEl.value = meta.coverage_end;
+
+    renderPrs(meta);
+    buildCharts(fromEl.value, toEl.value);
+
+    document.getElementById('applyRange').addEventListener('click', () => {
+      buildCharts(fromEl.value || null, toEl.value || null);
+    });
+    document.getElementById('resetRange').addEventListener('click', () => {
+      fromEl.value = meta.coverage_start; toEl.value = meta.coverage_end;
+      buildCharts(fromEl.value, toEl.value);
+    });
+    document.getElementById('toggleHealth').addEventListener('change', (e) => {
+      document.getElementById('healthSection').style.display = e.target.checked ? '' : 'none';
+    });
+  }
+
+  main().catch(err => {
+    console.error(err);
+    document.getElementById('coveragePill').textContent = 'שגיאה בטעינת נתונים';
+  });
+  </script>
+</body>
+</html>

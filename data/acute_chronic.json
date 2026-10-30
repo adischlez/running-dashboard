@@ -1,0 +1,3392 @@
+[
+  {
+    "date": "2025-04-14",
+    "km7": 64.97,
+    "chronic_weekly": 64.69,
+    "ac_ratio": 1.0
+  },
+  {
+    "date": "2025-04-15",
+    "km7": 77.14,
+    "chronic_weekly": 68.51,
+    "ac_ratio": 1.13
+  },
+  {
+    "date": "2025-04-16",
+    "km7": 67.31,
+    "chronic_weekly": 68.14,
+    "ac_ratio": 0.99
+  },
+  {
+    "date": "2025-04-17",
+    "km7": 65.25,
+    "chronic_weekly": 65.46,
+    "ac_ratio": 1.0
+  },
+  {
+    "date": "2025-04-18",
+    "km7": 60.75,
+    "chronic_weekly": 63.28,
+    "ac_ratio": 0.96
+  },
+  {
+    "date": "2025-04-19",
+    "km7": 57.72,
+    "chronic_weekly": 62.33,
+    "ac_ratio": 0.93
+  },
+  {
+    "date": "2025-04-20",
+    "km7": 71.06,
+    "chronic_weekly": 63.04,
+    "ac_ratio": 1.13
+  },
+  {
+    "date": "2025-04-21",
+    "km7": 75.41,
+    "chronic_weekly": 62.94,
+    "ac_ratio": 1.2
+  },
+  {
+    "date": "2025-04-22",
+    "km7": 61.5,
+    "chronic_weekly": 61.1,
+    "ac_ratio": 1.01
+  },
+  {
+    "date": "2025-04-23",
+    "km7": 68.04,
+    "chronic_weekly": 61.73,
+    "ac_ratio": 1.1
+  },
+  {
+    "date": "2025-04-24",
+    "km7": 67.58,
+    "chronic_weekly": 60.73,
+    "ac_ratio": 1.11
+  },
+  {
+    "date": "2025-04-25",
+    "km7": 62.58,
+    "chronic_weekly": 55.34,
+    "ac_ratio": 1.13
+  },
+  {
+    "date": "2025-04-26",
+    "km7": 54.04,
+    "chronic_weekly": 55.34,
+    "ac_ratio": 0.98
+  },
+  {
+    "date": "2025-04-27",
+    "km7": 40.7,
+    "chronic_weekly": 53.32,
+    "ac_ratio": 0.76
+  },
+  {
+    "date": "2025-04-28",
+    "km7": 33.81,
+    "chronic_weekly": 53.49,
+    "ac_ratio": 0.63
+  },
+  {
+    "date": "2025-04-29",
+    "km7": 25.54,
+    "chronic_weekly": 50.82,
+    "ac_ratio": 0.5
+  },
+  {
+    "date": "2025-04-30",
+    "km7": 7.7,
+    "chronic_weekly": 50.82,
+    "ac_ratio": 0.15
+  },
+  {
+    "date": "2025-05-01",
+    "km7": 10.71,
+    "chronic_weekly": 53.32,
+    "ac_ratio": 0.2
+  },
+  {
+    "date": "2025-05-02",
+    "km7": 10.71,
+    "chronic_weekly": 53.32,
+    "ac_ratio": 0.2
+  },
+  {
+    "date": "2025-05-03",
+    "km7": 10.71,
+    "chronic_weekly": 50.29,
+    "ac_ratio": 0.21
+  },
+  {
+    "date": "2025-05-04",
+    "km7": 10.71,
+    "chronic_weekly": 47.56,
+    "ac_ratio": 0.23
+  },
+  {
+    "date": "2025-05-05",
+    "km7": 17.25,
+    "chronic_weekly": 47.86,
+    "ac_ratio": 0.36
+  },
+  {
+    "date": "2025-05-06",
+    "km7": 34.82,
+    "chronic_weekly": 49.75,
+    "ac_ratio": 0.7
+  },
+  {
+    "date": "2025-05-07",
+    "km7": 40.03,
+    "chronic_weekly": 45.77,
+    "ac_ratio": 0.87
+  },
+  {
+    "date": "2025-05-08",
+    "km7": 43.02,
+    "chronic_weekly": 46.64,
+    "ac_ratio": 0.92
+  },
+  {
+    "date": "2025-05-09",
+    "km7": 43.02,
+    "chronic_weekly": 44.26,
+    "ac_ratio": 0.97
+  },
+  {
+    "date": "2025-05-10",
+    "km7": 46.8,
+    "chronic_weekly": 42.32,
+    "ac_ratio": 1.11
+  },
+  {
+    "date": "2025-05-11",
+    "km7": 54.92,
+    "chronic_weekly": 44.35,
+    "ac_ratio": 1.24
+  },
+  {
+    "date": "2025-05-12",
+    "km7": 59.19,
+    "chronic_weekly": 46.42,
+    "ac_ratio": 1.28
+  },
+  {
+    "date": "2025-05-13",
+    "km7": 54.48,
+    "chronic_weekly": 44.08,
+    "ac_ratio": 1.24
+  },
+  {
+    "date": "2025-05-14",
+    "km7": 62.27,
+    "chronic_weekly": 44.51,
+    "ac_ratio": 1.4
+  },
+  {
+    "date": "2025-05-15",
+    "km7": 53.81,
+    "chronic_weekly": 43.78,
+    "ac_ratio": 1.23
+  },
+  {
+    "date": "2025-05-16",
+    "km7": 65.6,
+    "chronic_weekly": 45.48,
+    "ac_ratio": 1.44
+  },
+  {
+    "date": "2025-05-17",
+    "km7": 77.95,
+    "chronic_weekly": 47.38,
+    "ac_ratio": 1.65
+  },
+  {
+    "date": "2025-05-18",
+    "km7": 79.94,
+    "chronic_weekly": 46.57,
+    "ac_ratio": 1.72
+  },
+  {
+    "date": "2025-05-19",
+    "km7": 77.73,
+    "chronic_weekly": 47.0,
+    "ac_ratio": 1.65
+  },
+  {
+    "date": "2025-05-20",
+    "km7": 72.21,
+    "chronic_weekly": 46.76,
+    "ac_ratio": 1.54
+  },
+  {
+    "date": "2025-05-21",
+    "km7": 79.25,
+    "chronic_weekly": 47.31,
+    "ac_ratio": 1.68
+  },
+  {
+    "date": "2025-05-22",
+    "km7": 82.74,
+    "chronic_weekly": 47.57,
+    "ac_ratio": 1.74
+  },
+  {
+    "date": "2025-05-23",
+    "km7": 70.95,
+    "chronic_weekly": 47.57,
+    "ac_ratio": 1.49
+  },
+  {
+    "date": "2025-05-24",
+    "km7": 85.47,
+    "chronic_weekly": 55.23,
+    "ac_ratio": 1.55
+  },
+  {
+    "date": "2025-05-25",
+    "km7": 75.36,
+    "chronic_weekly": 55.23,
+    "ac_ratio": 1.36
+  },
+  {
+    "date": "2025-05-26",
+    "km7": 79.03,
+    "chronic_weekly": 58.3,
+    "ac_ratio": 1.36
+  },
+  {
+    "date": "2025-05-27",
+    "km7": 79.96,
+    "chronic_weekly": 60.37,
+    "ac_ratio": 1.32
+  },
+  {
+    "date": "2025-05-28",
+    "km7": 70.15,
+    "chronic_weekly": 62.92,
+    "ac_ratio": 1.11
+  },
+  {
+    "date": "2025-05-29",
+    "km7": 77.42,
+    "chronic_weekly": 64.25,
+    "ac_ratio": 1.21
+  },
+  {
+    "date": "2025-05-30",
+    "km7": 83.05,
+    "chronic_weekly": 65.66,
+    "ac_ratio": 1.26
+  },
+  {
+    "date": "2025-05-31",
+    "km7": 52.4,
+    "chronic_weekly": 65.65,
+    "ac_ratio": 0.8
+  },
+  {
+    "date": "2025-06-01",
+    "km7": 52.4,
+    "chronic_weekly": 65.66,
+    "ac_ratio": 0.8
+  },
+  {
+    "date": "2025-06-02",
+    "km7": 81.94,
+    "chronic_weekly": 74.47,
+    "ac_ratio": 1.1
+  },
+  {
+    "date": "2025-06-03",
+    "km7": 73.67,
+    "chronic_weekly": 70.08,
+    "ac_ratio": 1.05
+  },
+  {
+    "date": "2025-06-04",
+    "km7": 63.44,
+    "chronic_weekly": 68.78,
+    "ac_ratio": 0.92
+  },
+  {
+    "date": "2025-06-05",
+    "km7": 58.72,
+    "chronic_weekly": 68.17,
+    "ac_ratio": 0.86
+  },
+  {
+    "date": "2025-06-06",
+    "km7": 65.92,
+    "chronic_weekly": 71.38,
+    "ac_ratio": 0.92
+  },
+  {
+    "date": "2025-06-07",
+    "km7": 80.92,
+    "chronic_weekly": 74.18,
+    "ac_ratio": 1.09
+  },
+  {
+    "date": "2025-06-08",
+    "km7": 92.41,
+    "chronic_weekly": 75.03,
+    "ac_ratio": 1.23
+  },
+  {
+    "date": "2025-06-09",
+    "km7": 57.0,
+    "chronic_weekly": 73.92,
+    "ac_ratio": 0.77
+  },
+  {
+    "date": "2025-06-10",
+    "km7": 67.0,
+    "chronic_weekly": 73.21,
+    "ac_ratio": 0.92
+  },
+  {
+    "date": "2025-06-11",
+    "km7": 80.15,
+    "chronic_weekly": 73.25,
+    "ac_ratio": 1.09
+  },
+  {
+    "date": "2025-06-12",
+    "km7": 77.61,
+    "chronic_weekly": 74.12,
+    "ac_ratio": 1.05
+  },
+  {
+    "date": "2025-06-13",
+    "km7": 88.88,
+    "chronic_weekly": 77.2,
+    "ac_ratio": 1.15
+  },
+  {
+    "date": "2025-06-14",
+    "km7": 92.2,
+    "chronic_weekly": 77.75,
+    "ac_ratio": 1.19
+  },
+  {
+    "date": "2025-06-15",
+    "km7": 100.17,
+    "chronic_weekly": 80.08,
+    "ac_ratio": 1.25
+  },
+  {
+    "date": "2025-06-16",
+    "km7": 110.21,
+    "chronic_weekly": 82.04,
+    "ac_ratio": 1.34
+  },
+  {
+    "date": "2025-06-17",
+    "km7": 100.21,
+    "chronic_weekly": 80.21,
+    "ac_ratio": 1.25
+  },
+  {
+    "date": "2025-06-18",
+    "km7": 105.1,
+    "chronic_weekly": 79.71,
+    "ac_ratio": 1.32
+  },
+  {
+    "date": "2025-06-19",
+    "km7": 97.05,
+    "chronic_weekly": 77.7,
+    "ac_ratio": 1.25
+  },
+  {
+    "date": "2025-06-20",
+    "km7": 72.95,
+    "chronic_weekly": 77.7,
+    "ac_ratio": 0.94
+  },
+  {
+    "date": "2025-06-21",
+    "km7": 65.86,
+    "chronic_weekly": 72.85,
+    "ac_ratio": 0.9
+  },
+  {
+    "date": "2025-06-22",
+    "km7": 56.69,
+    "chronic_weekly": 75.42,
+    "ac_ratio": 0.75
+  },
+  {
+    "date": "2025-06-23",
+    "km7": 51.05,
+    "chronic_weekly": 75.05,
+    "ac_ratio": 0.68
+  },
+  {
+    "date": "2025-06-24",
+    "km7": 51.05,
+    "chronic_weekly": 72.98,
+    "ac_ratio": 0.7
+  },
+  {
+    "date": "2025-06-25",
+    "km7": 33.01,
+    "chronic_weekly": 70.43,
+    "ac_ratio": 0.47
+  },
+  {
+    "date": "2025-06-26",
+    "km7": 33.01,
+    "chronic_weekly": 66.6,
+    "ac_ratio": 0.5
+  },
+  {
+    "date": "2025-06-27",
+    "km7": 33.01,
+    "chronic_weekly": 65.19,
+    "ac_ratio": 0.51
+  },
+  {
+    "date": "2025-06-28",
+    "km7": 21.78,
+    "chronic_weekly": 65.19,
+    "ac_ratio": 0.33
+  },
+  {
+    "date": "2025-06-29",
+    "km7": 19.26,
+    "chronic_weekly": 67.13,
+    "ac_ratio": 0.29
+  },
+  {
+    "date": "2025-06-30",
+    "km7": 17.78,
+    "chronic_weekly": 59.01,
+    "ac_ratio": 0.3
+  },
+  {
+    "date": "2025-07-01",
+    "km7": 22.79,
+    "chronic_weekly": 60.26,
+    "ac_ratio": 0.38
+  },
+  {
+    "date": "2025-07-02",
+    "km7": 22.79,
+    "chronic_weekly": 60.26,
+    "ac_ratio": 0.38
+  },
+  {
+    "date": "2025-07-03",
+    "km7": 32.8,
+    "chronic_weekly": 60.12,
+    "ac_ratio": 0.55
+  },
+  {
+    "date": "2025-07-04",
+    "km7": 32.8,
+    "chronic_weekly": 56.91,
+    "ac_ratio": 0.58
+  },
+  {
+    "date": "2025-07-05",
+    "km7": 32.8,
+    "chronic_weekly": 53.16,
+    "ac_ratio": 0.62
+  },
+  {
+    "date": "2025-07-06",
+    "km7": 31.23,
+    "chronic_weekly": 51.84,
+    "ac_ratio": 0.6
+  },
+  {
+    "date": "2025-07-07",
+    "km7": 32.22,
+    "chronic_weekly": 52.82,
+    "ac_ratio": 0.61
+  },
+  {
+    "date": "2025-07-08",
+    "km7": 33.48,
+    "chronic_weekly": 51.88,
+    "ac_ratio": 0.65
+  },
+  {
+    "date": "2025-07-09",
+    "km7": 33.48,
+    "chronic_weekly": 48.6,
+    "ac_ratio": 0.69
+  },
+  {
+    "date": "2025-07-10",
+    "km7": 23.47,
+    "chronic_weekly": 46.58,
+    "ac_ratio": 0.5
+  },
+  {
+    "date": "2025-07-11",
+    "km7": 23.47,
+    "chronic_weekly": 40.56,
+    "ac_ratio": 0.58
+  },
+  {
+    "date": "2025-07-12",
+    "km7": 29.97,
+    "chronic_weekly": 37.6,
+    "ac_ratio": 0.8
+  },
+  {
+    "date": "2025-07-13",
+    "km7": 23.77,
+    "chronic_weekly": 32.74,
+    "ac_ratio": 0.73
+  },
+  {
+    "date": "2025-07-14",
+    "km7": 12.77,
+    "chronic_weekly": 28.46,
+    "ac_ratio": 0.45
+  },
+  {
+    "date": "2025-07-15",
+    "km7": 6.5,
+    "chronic_weekly": 28.46,
+    "ac_ratio": 0.23
+  },
+  {
+    "date": "2025-07-16",
+    "km7": 6.5,
+    "chronic_weekly": 23.94,
+    "ac_ratio": 0.27
+  },
+  {
+    "date": "2025-07-17",
+    "km7": 6.5,
+    "chronic_weekly": 23.94,
+    "ac_ratio": 0.27
+  },
+  {
+    "date": "2025-07-18",
+    "km7": 11.26,
+    "chronic_weekly": 25.14,
+    "ac_ratio": 0.45
+  },
+  {
+    "date": "2025-07-19",
+    "km7": 4.76,
+    "chronic_weekly": 22.33,
+    "ac_ratio": 0.21
+  },
+  {
+    "date": "2025-07-20",
+    "km7": 4.76,
+    "chronic_weekly": 19.76,
+    "ac_ratio": 0.24
+  },
+  {
+    "date": "2025-07-21",
+    "km7": 4.76,
+    "chronic_weekly": 16.88,
+    "ac_ratio": 0.28
+  },
+  {
+    "date": "2025-07-22",
+    "km7": 4.76,
+    "chronic_weekly": 16.88,
+    "ac_ratio": 0.28
+  },
+  {
+    "date": "2025-07-23",
+    "km7": 4.76,
+    "chronic_weekly": 16.88,
+    "ac_ratio": 0.28
+  },
+  {
+    "date": "2025-07-24",
+    "km7": 4.76,
+    "chronic_weekly": 16.88,
+    "ac_ratio": 0.28
+  },
+  {
+    "date": "2025-07-25",
+    "km7": 0.0,
+    "chronic_weekly": 16.88,
+    "ac_ratio": 0.0
+  },
+  {
+    "date": "2025-07-26",
+    "km7": 0.0,
+    "chronic_weekly": 16.88,
+    "ac_ratio": 0.0
+  },
+  {
+    "date": "2025-07-27",
+    "km7": 5.0,
+    "chronic_weekly": 16.19,
+    "ac_ratio": 0.31
+  },
+  {
+    "date": "2025-07-28",
+    "km7": 11.0,
+    "chronic_weekly": 15.19,
+    "ac_ratio": 0.72
+  },
+  {
+    "date": "2025-07-29",
+    "km7": 17.4,
+    "chronic_weekly": 15.53,
+    "ac_ratio": 1.12
+  },
+  {
+    "date": "2025-07-30",
+    "km7": 27.84,
+    "chronic_weekly": 18.14,
+    "ac_ratio": 1.53
+  },
+  {
+    "date": "2025-07-31",
+    "km7": 27.84,
+    "chronic_weekly": 15.64,
+    "ac_ratio": 1.78
+  },
+  {
+    "date": "2025-08-01",
+    "km7": 27.84,
+    "chronic_weekly": 15.64,
+    "ac_ratio": 1.78
+  },
+  {
+    "date": "2025-08-02",
+    "km7": 27.84,
+    "chronic_weekly": 15.64,
+    "ac_ratio": 1.78
+  },
+  {
+    "date": "2025-08-03",
+    "km7": 36.1,
+    "chronic_weekly": 17.41,
+    "ac_ratio": 2.07
+  },
+  {
+    "date": "2025-08-04",
+    "km7": 30.1,
+    "chronic_weekly": 14.66,
+    "ac_ratio": 2.05
+  },
+  {
+    "date": "2025-08-05",
+    "km7": 39.73,
+    "chronic_weekly": 17.1,
+    "ac_ratio": 2.32
+  },
+  {
+    "date": "2025-08-06",
+    "km7": 37.8,
+    "chronic_weekly": 19.23,
+    "ac_ratio": 1.97
+  },
+  {
+    "date": "2025-08-07",
+    "km7": 51.48,
+    "chronic_weekly": 22.65,
+    "ac_ratio": 2.27
+  },
+  {
+    "date": "2025-08-08",
+    "km7": 56.91,
+    "chronic_weekly": 24.0,
+    "ac_ratio": 2.37
+  },
+  {
+    "date": "2025-08-09",
+    "km7": 67.35,
+    "chronic_weekly": 24.99,
+    "ac_ratio": 2.7
+  },
+  {
+    "date": "2025-08-10",
+    "km7": 77.11,
+    "chronic_weekly": 30.74,
+    "ac_ratio": 2.51
+  },
+  {
+    "date": "2025-08-11",
+    "km7": 91.53,
+    "chronic_weekly": 34.35,
+    "ac_ratio": 2.66
+  },
+  {
+    "date": "2025-08-12",
+    "km7": 82.56,
+    "chronic_weekly": 36.11,
+    "ac_ratio": 2.29
+  },
+  {
+    "date": "2025-08-13",
+    "km7": 74.05,
+    "chronic_weekly": 36.11,
+    "ac_ratio": 2.05
+  },
+  {
+    "date": "2025-08-14",
+    "km7": 60.37,
+    "chronic_weekly": 36.11,
+    "ac_ratio": 1.67
+  },
+  {
+    "date": "2025-08-15",
+    "km7": 54.94,
+    "chronic_weekly": 34.92,
+    "ac_ratio": 1.57
+  },
+  {
+    "date": "2025-08-16",
+    "km7": 44.5,
+    "chronic_weekly": 34.92,
+    "ac_ratio": 1.27
+  },
+  {
+    "date": "2025-08-17",
+    "km7": 21.48,
+    "chronic_weekly": 34.92,
+    "ac_ratio": 0.62
+  },
+  {
+    "date": "2025-08-18",
+    "km7": 7.06,
+    "chronic_weekly": 34.92,
+    "ac_ratio": 0.2
+  },
+  {
+    "date": "2025-08-19",
+    "km7": 0.0,
+    "chronic_weekly": 34.92,
+    "ac_ratio": 0.0
+  },
+  {
+    "date": "2025-08-20",
+    "km7": 0.0,
+    "chronic_weekly": 34.92,
+    "ac_ratio": 0.0
+  },
+  {
+    "date": "2025-08-21",
+    "km7": 0.0,
+    "chronic_weekly": 34.92,
+    "ac_ratio": 0.0
+  },
+  {
+    "date": "2025-08-22",
+    "km7": 10.02,
+    "chronic_weekly": 37.43,
+    "ac_ratio": 0.27
+  },
+  {
+    "date": "2025-08-23",
+    "km7": 28.92,
+    "chronic_weekly": 42.15,
+    "ac_ratio": 0.69
+  },
+  {
+    "date": "2025-08-24",
+    "km7": 28.92,
+    "chronic_weekly": 40.9,
+    "ac_ratio": 0.71
+  },
+  {
+    "date": "2025-08-25",
+    "km7": 47.37,
+    "chronic_weekly": 44.02,
+    "ac_ratio": 1.08
+  },
+  {
+    "date": "2025-08-26",
+    "km7": 50.61,
+    "chronic_weekly": 43.22,
+    "ac_ratio": 1.17
+  },
+  {
+    "date": "2025-08-27",
+    "km7": 60.24,
+    "chronic_weekly": 43.02,
+    "ac_ratio": 1.4
+  },
+  {
+    "date": "2025-08-28",
+    "km7": 81.46,
+    "chronic_weekly": 48.33,
+    "ac_ratio": 1.69
+  },
+  {
+    "date": "2025-08-29",
+    "km7": 86.91,
+    "chronic_weekly": 52.2,
+    "ac_ratio": 1.67
+  },
+  {
+    "date": "2025-08-30",
+    "km7": 68.01,
+    "chronic_weekly": 52.2,
+    "ac_ratio": 1.3
+  },
+  {
+    "date": "2025-08-31",
+    "km7": 68.01,
+    "chronic_weekly": 48.88,
+    "ac_ratio": 1.39
+  },
+  {
+    "date": "2025-09-01",
+    "km7": 64.68,
+    "chronic_weekly": 52.66,
+    "ac_ratio": 1.23
+  },
+  {
+    "date": "2025-09-02",
+    "km7": 79.57,
+    "chronic_weekly": 53.18,
+    "ac_ratio": 1.5
+  },
+  {
+    "date": "2025-09-03",
+    "km7": 71.99,
+    "chronic_weekly": 51.57,
+    "ac_ratio": 1.4
+  },
+  {
+    "date": "2025-09-04",
+    "km7": 50.77,
+    "chronic_weekly": 48.15,
+    "ac_ratio": 1.05
+  },
+  {
+    "date": "2025-09-05",
+    "km7": 39.3,
+    "chronic_weekly": 47.79,
+    "ac_ratio": 0.82
+  },
+  {
+    "date": "2025-09-06",
+    "km7": 39.3,
+    "chronic_weekly": 45.18,
+    "ac_ratio": 0.87
+  },
+  {
+    "date": "2025-09-07",
+    "km7": 39.3,
+    "chronic_weekly": 39.43,
+    "ac_ratio": 1.0
+  },
+  {
+    "date": "2025-09-08",
+    "km7": 24.18,
+    "chronic_weekly": 35.82,
+    "ac_ratio": 0.67
+  },
+  {
+    "date": "2025-09-09",
+    "km7": 20.34,
+    "chronic_weekly": 37.63,
+    "ac_ratio": 0.54
+  },
+  {
+    "date": "2025-09-10",
+    "km7": 33.32,
+    "chronic_weekly": 41.39,
+    "ac_ratio": 0.81
+  },
+  {
+    "date": "2025-09-11",
+    "km7": 49.34,
+    "chronic_weekly": 45.39,
+    "ac_ratio": 1.09
+  },
+  {
+    "date": "2025-09-12",
+    "km7": 67.04,
+    "chronic_weekly": 50.82,
+    "ac_ratio": 1.32
+  },
+  {
+    "date": "2025-09-13",
+    "km7": 71.54,
+    "chronic_weekly": 51.94,
+    "ac_ratio": 1.38
+  },
+  {
+    "date": "2025-09-14",
+    "km7": 93.61,
+    "chronic_weekly": 57.46,
+    "ac_ratio": 1.63
+  },
+  {
+    "date": "2025-09-15",
+    "km7": 103.62,
+    "chronic_weekly": 59.96,
+    "ac_ratio": 1.73
+  },
+  {
+    "date": "2025-09-16",
+    "km7": 110.75,
+    "chronic_weekly": 65.32,
+    "ac_ratio": 1.7
+  },
+  {
+    "date": "2025-09-17",
+    "km7": 117.26,
+    "chronic_weekly": 70.7,
+    "ac_ratio": 1.66
+  },
+  {
+    "date": "2025-09-18",
+    "km7": 122.36,
+    "chronic_weekly": 75.98,
+    "ac_ratio": 1.61
+  },
+  {
+    "date": "2025-09-19",
+    "km7": 121.8,
+    "chronic_weekly": 78.76,
+    "ac_ratio": 1.55
+  },
+  {
+    "date": "2025-09-20",
+    "km7": 138.37,
+    "chronic_weekly": 79.3,
+    "ac_ratio": 1.74
+  },
+  {
+    "date": "2025-09-21",
+    "km7": 116.3,
+    "chronic_weekly": 79.3,
+    "ac_ratio": 1.47
+  },
+  {
+    "date": "2025-09-22",
+    "km7": 106.29,
+    "chronic_weekly": 74.69,
+    "ac_ratio": 1.42
+  },
+  {
+    "date": "2025-09-23",
+    "km7": 92.51,
+    "chronic_weekly": 75.79,
+    "ac_ratio": 1.22
+  },
+  {
+    "date": "2025-09-24",
+    "km7": 78.58,
+    "chronic_weekly": 75.29,
+    "ac_ratio": 1.04
+  },
+  {
+    "date": "2025-09-25",
+    "km7": 61.05,
+    "chronic_weekly": 70.88,
+    "ac_ratio": 0.86
+  },
+  {
+    "date": "2025-09-26",
+    "km7": 43.3,
+    "chronic_weekly": 67.86,
+    "ac_ratio": 0.64
+  },
+  {
+    "date": "2025-09-27",
+    "km7": 29.35,
+    "chronic_weekly": 69.64,
+    "ac_ratio": 0.42
+  },
+  {
+    "date": "2025-09-28",
+    "km7": 34.36,
+    "chronic_weekly": 70.89,
+    "ac_ratio": 0.48
+  },
+  {
+    "date": "2025-09-29",
+    "km7": 34.36,
+    "chronic_weekly": 67.11,
+    "ac_ratio": 0.51
+  },
+  {
+    "date": "2025-09-30",
+    "km7": 36.73,
+    "chronic_weekly": 65.08,
+    "ac_ratio": 0.56
+  },
+  {
+    "date": "2025-10-01",
+    "km7": 35.84,
+    "chronic_weekly": 66.25,
+    "ac_ratio": 0.54
+  },
+  {
+    "date": "2025-10-02",
+    "km7": 55.08,
+    "chronic_weekly": 71.96,
+    "ac_ratio": 0.77
+  },
+  {
+    "date": "2025-10-03",
+    "km7": 51.69,
+    "chronic_weekly": 70.96,
+    "ac_ratio": 0.73
+  },
+  {
+    "date": "2025-10-04",
+    "km7": 44.57,
+    "chronic_weekly": 70.96,
+    "ac_ratio": 0.63
+  },
+  {
+    "date": "2025-10-05",
+    "km7": 39.56,
+    "chronic_weekly": 70.96,
+    "ac_ratio": 0.56
+  },
+  {
+    "date": "2025-10-06",
+    "km7": 50.57,
+    "chronic_weekly": 73.71,
+    "ac_ratio": 0.69
+  },
+  {
+    "date": "2025-10-07",
+    "km7": 40.56,
+    "chronic_weekly": 70.14,
+    "ac_ratio": 0.58
+  },
+  {
+    "date": "2025-10-08",
+    "km7": 36.85,
+    "chronic_weekly": 67.13,
+    "ac_ratio": 0.55
+  },
+  {
+    "date": "2025-10-09",
+    "km7": 19.05,
+    "chronic_weekly": 64.38,
+    "ac_ratio": 0.3
+  },
+  {
+    "date": "2025-10-10",
+    "km7": 19.05,
+    "chronic_weekly": 58.96,
+    "ac_ratio": 0.32
+  },
+  {
+    "date": "2025-10-11",
+    "km7": 26.31,
+    "chronic_weekly": 59.65,
+    "ac_ratio": 0.44
+  },
+  {
+    "date": "2025-10-12",
+    "km7": 26.31,
+    "chronic_weekly": 54.13,
+    "ac_ratio": 0.49
+  },
+  {
+    "date": "2025-10-13",
+    "km7": 15.3,
+    "chronic_weekly": 51.63,
+    "ac_ratio": 0.3
+  },
+  {
+    "date": "2025-10-14",
+    "km7": 19.32,
+    "chronic_weekly": 47.28,
+    "ac_ratio": 0.41
+  },
+  {
+    "date": "2025-10-15",
+    "km7": 20.33,
+    "chronic_weekly": 42.9,
+    "ac_ratio": 0.47
+  },
+  {
+    "date": "2025-10-16",
+    "km7": 21.31,
+    "chronic_weekly": 39.12,
+    "ac_ratio": 0.54
+  },
+  {
+    "date": "2025-10-17",
+    "km7": 26.58,
+    "chronic_weekly": 35.16,
+    "ac_ratio": 0.76
+  },
+  {
+    "date": "2025-10-18",
+    "km7": 29.34,
+    "chronic_weekly": 32.39,
+    "ac_ratio": 0.91
+  },
+  {
+    "date": "2025-10-19",
+    "km7": 36.34,
+    "chronic_weekly": 34.14,
+    "ac_ratio": 1.06
+  },
+  {
+    "date": "2025-10-20",
+    "km7": 36.34,
+    "chronic_weekly": 34.14,
+    "ac_ratio": 1.06
+  },
+  {
+    "date": "2025-10-21",
+    "km7": 42.33,
+    "chronic_weekly": 34.74,
+    "ac_ratio": 1.22
+  },
+  {
+    "date": "2025-10-22",
+    "km7": 42.49,
+    "chronic_weekly": 33.88,
+    "ac_ratio": 1.25
+  },
+  {
+    "date": "2025-10-23",
+    "km7": 39.99,
+    "chronic_weekly": 33.86,
+    "ac_ratio": 1.18
+  },
+  {
+    "date": "2025-10-24",
+    "km7": 34.72,
+    "chronic_weekly": 33.01,
+    "ac_ratio": 1.05
+  },
+  {
+    "date": "2025-10-25",
+    "km7": 24.7,
+    "chronic_weekly": 31.23,
+    "ac_ratio": 0.79
+  },
+  {
+    "date": "2025-10-26",
+    "km7": 17.7,
+    "chronic_weekly": 29.98,
+    "ac_ratio": 0.59
+  },
+  {
+    "date": "2025-10-27",
+    "km7": 38.81,
+    "chronic_weekly": 35.25,
+    "ac_ratio": 1.1
+  },
+  {
+    "date": "2025-10-28",
+    "km7": 28.8,
+    "chronic_weekly": 32.75,
+    "ac_ratio": 0.88
+  },
+  {
+    "date": "2025-10-29",
+    "km7": 30.22,
+    "chronic_weekly": 32.47,
+    "ac_ratio": 0.93
+  },
+  {
+    "date": "2025-10-30",
+    "km7": 31.9,
+    "chronic_weekly": 28.06,
+    "ac_ratio": 1.14
+  },
+  {
+    "date": "2025-10-31",
+    "km7": 39.34,
+    "chronic_weekly": 29.92,
+    "ac_ratio": 1.31
+  },
+  {
+    "date": "2025-11-01",
+    "km7": 45.07,
+    "chronic_weekly": 31.35,
+    "ac_ratio": 1.44
+  },
+  {
+    "date": "2025-11-02",
+    "km7": 45.07,
+    "chronic_weekly": 31.36,
+    "ac_ratio": 1.44
+  },
+  {
+    "date": "2025-11-03",
+    "km7": 23.96,
+    "chronic_weekly": 28.6,
+    "ac_ratio": 0.84
+  },
+  {
+    "date": "2025-11-04",
+    "km7": 28.77,
+    "chronic_weekly": 29.81,
+    "ac_ratio": 0.97
+  },
+  {
+    "date": "2025-11-05",
+    "km7": 23.17,
+    "chronic_weekly": 29.05,
+    "ac_ratio": 0.8
+  },
+  {
+    "date": "2025-11-06",
+    "km7": 25.01,
+    "chronic_weekly": 29.55,
+    "ac_ratio": 0.85
+  },
+  {
+    "date": "2025-11-07",
+    "km7": 34.57,
+    "chronic_weekly": 33.8,
+    "ac_ratio": 1.02
+  },
+  {
+    "date": "2025-11-08",
+    "km7": 28.84,
+    "chronic_weekly": 31.99,
+    "ac_ratio": 0.9
+  },
+  {
+    "date": "2025-11-09",
+    "km7": 28.84,
+    "chronic_weekly": 31.99,
+    "ac_ratio": 0.9
+  },
+  {
+    "date": "2025-11-10",
+    "km7": 28.84,
+    "chronic_weekly": 31.99,
+    "ac_ratio": 0.9
+  },
+  {
+    "date": "2025-11-11",
+    "km7": 24.03,
+    "chronic_weekly": 30.98,
+    "ac_ratio": 0.78
+  },
+  {
+    "date": "2025-11-12",
+    "km7": 30.07,
+    "chronic_weekly": 31.49,
+    "ac_ratio": 0.95
+  },
+  {
+    "date": "2025-11-13",
+    "km7": 28.37,
+    "chronic_weekly": 31.32,
+    "ac_ratio": 0.91
+  },
+  {
+    "date": "2025-11-14",
+    "km7": 21.38,
+    "chronic_weekly": 32.5,
+    "ac_ratio": 0.66
+  },
+  {
+    "date": "2025-11-15",
+    "km7": 21.38,
+    "chronic_weekly": 30.0,
+    "ac_ratio": 0.71
+  },
+  {
+    "date": "2025-11-16",
+    "km7": 22.61,
+    "chronic_weekly": 28.56,
+    "ac_ratio": 0.79
+  },
+  {
+    "date": "2025-11-17",
+    "km7": 22.61,
+    "chronic_weekly": 28.56,
+    "ac_ratio": 0.79
+  },
+  {
+    "date": "2025-11-18",
+    "km7": 22.61,
+    "chronic_weekly": 26.05,
+    "ac_ratio": 0.87
+  },
+  {
+    "date": "2025-11-19",
+    "km7": 16.57,
+    "chronic_weekly": 25.01,
+    "ac_ratio": 0.66
+  },
+  {
+    "date": "2025-11-20",
+    "km7": 17.71,
+    "chronic_weekly": 25.75,
+    "ac_ratio": 0.69
+  },
+  {
+    "date": "2025-11-21",
+    "km7": 7.7,
+    "chronic_weekly": 25.75,
+    "ac_ratio": 0.3
+  },
+  {
+    "date": "2025-11-22",
+    "km7": 11.72,
+    "chronic_weekly": 26.75,
+    "ac_ratio": 0.44
+  },
+  {
+    "date": "2025-11-23",
+    "km7": 11.62,
+    "chronic_weekly": 27.04,
+    "ac_ratio": 0.43
+  },
+  {
+    "date": "2025-11-24",
+    "km7": 22.63,
+    "chronic_weekly": 24.51,
+    "ac_ratio": 0.92
+  },
+  {
+    "date": "2025-11-25",
+    "km7": 22.63,
+    "chronic_weekly": 24.51,
+    "ac_ratio": 0.92
+  },
+  {
+    "date": "2025-11-26",
+    "km7": 23.77,
+    "chronic_weekly": 23.4,
+    "ac_ratio": 1.02
+  },
+  {
+    "date": "2025-11-27",
+    "km7": 23.61,
+    "chronic_weekly": 23.68,
+    "ac_ratio": 1.0
+  },
+  {
+    "date": "2025-11-28",
+    "km7": 23.61,
+    "chronic_weekly": 21.82,
+    "ac_ratio": 1.08
+  },
+  {
+    "date": "2025-11-29",
+    "km7": 19.59,
+    "chronic_weekly": 20.38,
+    "ac_ratio": 0.96
+  },
+  {
+    "date": "2025-11-30",
+    "km7": 18.46,
+    "chronic_weekly": 20.38,
+    "ac_ratio": 0.91
+  },
+  {
+    "date": "2025-12-01",
+    "km7": 19.75,
+    "chronic_weekly": 23.46,
+    "ac_ratio": 0.84
+  },
+  {
+    "date": "2025-12-02",
+    "km7": 27.14,
+    "chronic_weekly": 24.1,
+    "ac_ratio": 1.13
+  },
+  {
+    "date": "2025-12-03",
+    "km7": 35.01,
+    "chronic_weekly": 26.36,
+    "ac_ratio": 1.33
+  },
+  {
+    "date": "2025-12-04",
+    "km7": 28.7,
+    "chronic_weekly": 24.6,
+    "ac_ratio": 1.17
+  },
+  {
+    "date": "2025-12-05",
+    "km7": 28.7,
+    "chronic_weekly": 20.35,
+    "ac_ratio": 1.41
+  },
+  {
+    "date": "2025-12-06",
+    "km7": 37.76,
+    "chronic_weekly": 22.61,
+    "ac_ratio": 1.67
+  },
+  {
+    "date": "2025-12-07",
+    "km7": 37.76,
+    "chronic_weekly": 22.61,
+    "ac_ratio": 1.67
+  },
+  {
+    "date": "2025-12-08",
+    "km7": 25.46,
+    "chronic_weekly": 22.61,
+    "ac_ratio": 1.13
+  },
+  {
+    "date": "2025-12-09",
+    "km7": 18.07,
+    "chronic_weekly": 22.61,
+    "ac_ratio": 0.8
+  },
+  {
+    "date": "2025-12-10",
+    "km7": 20.07,
+    "chronic_weekly": 23.86,
+    "ac_ratio": 0.84
+  },
+  {
+    "date": "2025-12-11",
+    "km7": 42.42,
+    "chronic_weekly": 28.11,
+    "ac_ratio": 1.51
+  },
+  {
+    "date": "2025-12-12",
+    "km7": 42.42,
+    "chronic_weekly": 25.61,
+    "ac_ratio": 1.66
+  },
+  {
+    "date": "2025-12-13",
+    "km7": 45.31,
+    "chronic_weekly": 28.6,
+    "ac_ratio": 1.58
+  },
+  {
+    "date": "2025-12-14",
+    "km7": 45.31,
+    "chronic_weekly": 28.29,
+    "ac_ratio": 1.6
+  },
+  {
+    "date": "2025-12-15",
+    "km7": 50.32,
+    "chronic_weekly": 29.54,
+    "ac_ratio": 1.7
+  },
+  {
+    "date": "2025-12-16",
+    "km7": 55.33,
+    "chronic_weekly": 30.79,
+    "ac_ratio": 1.8
+  },
+  {
+    "date": "2025-12-17",
+    "km7": 54.34,
+    "chronic_weekly": 33.3,
+    "ac_ratio": 1.63
+  },
+  {
+    "date": "2025-12-18",
+    "km7": 42.0,
+    "chronic_weekly": 34.18,
+    "ac_ratio": 1.23
+  },
+  {
+    "date": "2025-12-19",
+    "km7": 42.0,
+    "chronic_weekly": 34.18,
+    "ac_ratio": 1.23
+  },
+  {
+    "date": "2025-12-20",
+    "km7": 30.05,
+    "chronic_weekly": 33.18,
+    "ac_ratio": 0.91
+  },
+  {
+    "date": "2025-12-21",
+    "km7": 37.31,
+    "chronic_weekly": 34.71,
+    "ac_ratio": 1.07
+  },
+  {
+    "date": "2025-12-22",
+    "km7": 32.3,
+    "chronic_weekly": 31.96,
+    "ac_ratio": 1.01
+  },
+  {
+    "date": "2025-12-23",
+    "km7": 32.71,
+    "chronic_weekly": 33.31,
+    "ac_ratio": 0.98
+  },
+  {
+    "date": "2025-12-24",
+    "km7": 27.73,
+    "chronic_weekly": 34.29,
+    "ac_ratio": 0.81
+  },
+  {
+    "date": "2025-12-25",
+    "km7": 30.59,
+    "chronic_weekly": 35.93,
+    "ac_ratio": 0.85
+  },
+  {
+    "date": "2025-12-26",
+    "km7": 38.6,
+    "chronic_weekly": 37.93,
+    "ac_ratio": 1.02
+  },
+  {
+    "date": "2025-12-27",
+    "km7": 41.71,
+    "chronic_weekly": 38.71,
+    "ac_ratio": 1.08
+  },
+  {
+    "date": "2025-12-28",
+    "km7": 39.16,
+    "chronic_weekly": 39.89,
+    "ac_ratio": 0.98
+  },
+  {
+    "date": "2025-12-29",
+    "km7": 39.16,
+    "chronic_weekly": 36.81,
+    "ac_ratio": 1.06
+  },
+  {
+    "date": "2025-12-30",
+    "km7": 41.03,
+    "chronic_weekly": 36.79,
+    "ac_ratio": 1.12
+  },
+  {
+    "date": "2025-12-31",
+    "km7": 41.06,
+    "chronic_weekly": 35.8,
+    "ac_ratio": 1.15
+  },
+  {
+    "date": "2026-01-01",
+    "km7": 44.68,
+    "chronic_weekly": 39.92,
+    "ac_ratio": 1.12
+  },
+  {
+    "date": "2026-01-02",
+    "km7": 39.75,
+    "chronic_weekly": 40.69,
+    "ac_ratio": 0.98
+  },
+  {
+    "date": "2026-01-03",
+    "km7": 44.09,
+    "chronic_weekly": 40.29,
+    "ac_ratio": 1.09
+  },
+  {
+    "date": "2026-01-04",
+    "km7": 44.54,
+    "chronic_weekly": 41.58,
+    "ac_ratio": 1.07
+  },
+  {
+    "date": "2026-01-05",
+    "km7": 48.87,
+    "chronic_weekly": 42.66,
+    "ac_ratio": 1.15
+  },
+  {
+    "date": "2026-01-06",
+    "km7": 46.59,
+    "chronic_weekly": 43.91,
+    "ac_ratio": 1.06
+  },
+  {
+    "date": "2026-01-07",
+    "km7": 41.52,
+    "chronic_weekly": 41.16,
+    "ac_ratio": 1.01
+  },
+  {
+    "date": "2026-01-08",
+    "km7": 37.04,
+    "chronic_weekly": 38.58,
+    "ac_ratio": 0.96
+  },
+  {
+    "date": "2026-01-09",
+    "km7": 44.43,
+    "chronic_weekly": 41.19,
+    "ac_ratio": 1.08
+  },
+  {
+    "date": "2026-01-10",
+    "km7": 49.99,
+    "chronic_weekly": 41.46,
+    "ac_ratio": 1.21
+  },
+  {
+    "date": "2026-01-11",
+    "km7": 54.84,
+    "chronic_weekly": 43.96,
+    "ac_ratio": 1.25
+  },
+  {
+    "date": "2026-01-12",
+    "km7": 50.51,
+    "chronic_weekly": 42.71,
+    "ac_ratio": 1.18
+  },
+  {
+    "date": "2026-01-13",
+    "km7": 50.96,
+    "chronic_weekly": 42.82,
+    "ac_ratio": 1.19
+  },
+  {
+    "date": "2026-01-14",
+    "km7": 56.99,
+    "chronic_weekly": 41.82,
+    "ac_ratio": 1.36
+  },
+  {
+    "date": "2026-01-15",
+    "km7": 60.44,
+    "chronic_weekly": 43.19,
+    "ac_ratio": 1.4
+  },
+  {
+    "date": "2026-01-16",
+    "km7": 55.98,
+    "chronic_weekly": 44.69,
+    "ac_ratio": 1.25
+  },
+  {
+    "date": "2026-01-17",
+    "km7": 55.27,
+    "chronic_weekly": 47.76,
+    "ac_ratio": 1.16
+  },
+  {
+    "date": "2026-01-18",
+    "km7": 45.26,
+    "chronic_weekly": 45.95,
+    "ac_ratio": 0.98
+  },
+  {
+    "date": "2026-01-19",
+    "km7": 50.26,
+    "chronic_weekly": 47.2,
+    "ac_ratio": 1.06
+  },
+  {
+    "date": "2026-01-20",
+    "km7": 52.81,
+    "chronic_weekly": 47.85,
+    "ac_ratio": 1.1
+  },
+  {
+    "date": "2026-01-21",
+    "km7": 53.33,
+    "chronic_weekly": 48.22,
+    "ac_ratio": 1.11
+  },
+  {
+    "date": "2026-01-22",
+    "km7": 43.72,
+    "chronic_weekly": 46.47,
+    "ac_ratio": 0.94
+  },
+  {
+    "date": "2026-01-23",
+    "km7": 42.72,
+    "chronic_weekly": 45.72,
+    "ac_ratio": 0.93
+  },
+  {
+    "date": "2026-01-24",
+    "km7": 80.44,
+    "chronic_weekly": 57.45,
+    "ac_ratio": 1.4
+  },
+  {
+    "date": "2026-01-25",
+    "km7": 80.44,
+    "chronic_weekly": 56.27,
+    "ac_ratio": 1.43
+  },
+  {
+    "date": "2026-01-26",
+    "km7": 75.44,
+    "chronic_weekly": 56.27,
+    "ac_ratio": 1.34
+  },
+  {
+    "date": "2026-01-27",
+    "km7": 67.43,
+    "chronic_weekly": 54.45,
+    "ac_ratio": 1.24
+  },
+  {
+    "date": "2026-01-28",
+    "km7": 65.89,
+    "chronic_weekly": 54.43,
+    "ac_ratio": 1.21
+  },
+  {
+    "date": "2026-01-29",
+    "km7": 67.2,
+    "chronic_weekly": 52.1,
+    "ac_ratio": 1.29
+  },
+  {
+    "date": "2026-01-30",
+    "km7": 62.19,
+    "chronic_weekly": 51.33,
+    "ac_ratio": 1.21
+  },
+  {
+    "date": "2026-01-31",
+    "km7": 18.71,
+    "chronic_weekly": 51.1,
+    "ac_ratio": 0.37
+  },
+  {
+    "date": "2026-02-01",
+    "km7": 28.73,
+    "chronic_weekly": 52.32,
+    "ac_ratio": 0.55
+  },
+  {
+    "date": "2026-02-02",
+    "km7": 38.73,
+    "chronic_weekly": 53.74,
+    "ac_ratio": 0.72
+  },
+  {
+    "date": "2026-02-03",
+    "km7": 38.73,
+    "chronic_weekly": 52.48,
+    "ac_ratio": 0.74
+  },
+  {
+    "date": "2026-02-04",
+    "km7": 33.72,
+    "chronic_weekly": 52.48,
+    "ac_ratio": 0.64
+  },
+  {
+    "date": "2026-02-05",
+    "km7": 36.57,
+    "chronic_weekly": 51.98,
+    "ac_ratio": 0.7
+  },
+  {
+    "date": "2026-02-06",
+    "km7": 47.31,
+    "chronic_weekly": 52.05,
+    "ac_ratio": 0.91
+  },
+  {
+    "date": "2026-02-07",
+    "km7": 46.93,
+    "chronic_weekly": 50.34,
+    "ac_ratio": 0.93
+  },
+  {
+    "date": "2026-02-08",
+    "km7": 43.92,
+    "chronic_weekly": 49.59,
+    "ac_ratio": 0.89
+  },
+  {
+    "date": "2026-02-09",
+    "km7": 43.92,
+    "chronic_weekly": 52.09,
+    "ac_ratio": 0.84
+  },
+  {
+    "date": "2026-02-10",
+    "km7": 62.68,
+    "chronic_weekly": 55.41,
+    "ac_ratio": 1.13
+  },
+  {
+    "date": "2026-02-11",
+    "km7": 67.57,
+    "chronic_weekly": 55.13,
+    "ac_ratio": 1.23
+  },
+  {
+    "date": "2026-02-12",
+    "km7": 62.56,
+    "chronic_weekly": 52.51,
+    "ac_ratio": 1.19
+  },
+  {
+    "date": "2026-02-13",
+    "km7": 56.82,
+    "chronic_weekly": 52.26,
+    "ac_ratio": 1.09
+  },
+  {
+    "date": "2026-02-14",
+    "km7": 63.67,
+    "chronic_weekly": 52.44,
+    "ac_ratio": 1.21
+  },
+  {
+    "date": "2026-02-15",
+    "km7": 67.29,
+    "chronic_weekly": 55.1,
+    "ac_ratio": 1.22
+  },
+  {
+    "date": "2026-02-16",
+    "km7": 57.29,
+    "chronic_weekly": 53.84,
+    "ac_ratio": 1.06
+  },
+  {
+    "date": "2026-02-17",
+    "km7": 38.53,
+    "chronic_weekly": 51.84,
+    "ac_ratio": 0.74
+  },
+  {
+    "date": "2026-02-18",
+    "km7": 33.64,
+    "chronic_weekly": 50.2,
+    "ac_ratio": 0.67
+  },
+  {
+    "date": "2026-02-19",
+    "km7": 28.64,
+    "chronic_weekly": 48.74,
+    "ac_ratio": 0.59
+  },
+  {
+    "date": "2026-02-20",
+    "km7": 23.64,
+    "chronic_weekly": 47.49,
+    "ac_ratio": 0.5
+  },
+  {
+    "date": "2026-02-21",
+    "km7": 10.63,
+    "chronic_weekly": 34.98,
+    "ac_ratio": 0.3
+  },
+  {
+    "date": "2026-02-22",
+    "km7": 0.0,
+    "chronic_weekly": 34.98,
+    "ac_ratio": 0.0
+  },
+  {
+    "date": "2026-02-23",
+    "km7": 0.0,
+    "chronic_weekly": 34.98,
+    "ac_ratio": 0.0
+  },
+  {
+    "date": "2026-02-24",
+    "km7": 0.0,
+    "chronic_weekly": 34.98,
+    "ac_ratio": 0.0
+  },
+  {
+    "date": "2026-02-25",
+    "km7": 9.01,
+    "chronic_weekly": 35.98,
+    "ac_ratio": 0.25
+  },
+  {
+    "date": "2026-02-26",
+    "km7": 14.29,
+    "chronic_weekly": 35.52,
+    "ac_ratio": 0.4
+  },
+  {
+    "date": "2026-02-27",
+    "km7": 24.29,
+    "chronic_weekly": 38.02,
+    "ac_ratio": 0.64
+  },
+  {
+    "date": "2026-02-28",
+    "km7": 24.29,
+    "chronic_weekly": 36.38,
+    "ac_ratio": 0.67
+  },
+  {
+    "date": "2026-03-01",
+    "km7": 31.63,
+    "chronic_weekly": 35.71,
+    "ac_ratio": 0.89
+  },
+  {
+    "date": "2026-03-02",
+    "km7": 42.9,
+    "chronic_weekly": 36.03,
+    "ac_ratio": 1.19
+  },
+  {
+    "date": "2026-03-03",
+    "km7": 42.9,
+    "chronic_weekly": 36.03,
+    "ac_ratio": 1.19
+  },
+  {
+    "date": "2026-03-04",
+    "km7": 43.89,
+    "chronic_weekly": 38.53,
+    "ac_ratio": 1.14
+  },
+  {
+    "date": "2026-03-05",
+    "km7": 38.61,
+    "chronic_weekly": 36.02,
+    "ac_ratio": 1.07
+  },
+  {
+    "date": "2026-03-06",
+    "km7": 41.62,
+    "chronic_weekly": 36.59,
+    "ac_ratio": 1.14
+  },
+  {
+    "date": "2026-03-07",
+    "km7": 52.13,
+    "chronic_weekly": 37.68,
+    "ac_ratio": 1.38
+  },
+  {
+    "date": "2026-03-08",
+    "km7": 44.79,
+    "chronic_weekly": 35.93,
+    "ac_ratio": 1.25
+  },
+  {
+    "date": "2026-03-09",
+    "km7": 33.52,
+    "chronic_weekly": 33.43,
+    "ac_ratio": 1.0
+  },
+  {
+    "date": "2026-03-10",
+    "km7": 33.52,
+    "chronic_weekly": 28.74,
+    "ac_ratio": 1.17
+  },
+  {
+    "date": "2026-03-11",
+    "km7": 23.52,
+    "chronic_weekly": 27.52,
+    "ac_ratio": 0.85
+  },
+  {
+    "date": "2026-03-12",
+    "km7": 29.68,
+    "chronic_weekly": 27.8,
+    "ac_ratio": 1.07
+  },
+  {
+    "date": "2026-03-13",
+    "km7": 29.55,
+    "chronic_weekly": 29.78,
+    "ac_ratio": 0.99
+  },
+  {
+    "date": "2026-03-14",
+    "km7": 19.04,
+    "chronic_weekly": 26.52,
+    "ac_ratio": 0.72
+  },
+  {
+    "date": "2026-03-15",
+    "km7": 19.04,
+    "chronic_weekly": 23.86,
+    "ac_ratio": 0.8
+  },
+  {
+    "date": "2026-03-16",
+    "km7": 19.04,
+    "chronic_weekly": 23.86,
+    "ac_ratio": 0.8
+  },
+  {
+    "date": "2026-03-17",
+    "km7": 19.04,
+    "chronic_weekly": 23.86,
+    "ac_ratio": 0.8
+  },
+  {
+    "date": "2026-03-18",
+    "km7": 29.18,
+    "chronic_weekly": 26.4,
+    "ac_ratio": 1.11
+  },
+  {
+    "date": "2026-03-19",
+    "km7": 33.94,
+    "chronic_weekly": 29.13,
+    "ac_ratio": 1.17
+  },
+  {
+    "date": "2026-03-20",
+    "km7": 33.87,
+    "chronic_weekly": 32.33,
+    "ac_ratio": 1.05
+  },
+  {
+    "date": "2026-03-21",
+    "km7": 46.9,
+    "chronic_weekly": 35.59,
+    "ac_ratio": 1.32
+  },
+  {
+    "date": "2026-03-22",
+    "km7": 46.9,
+    "chronic_weekly": 35.59,
+    "ac_ratio": 1.32
+  },
+  {
+    "date": "2026-03-23",
+    "km7": 62.59,
+    "chronic_weekly": 39.51,
+    "ac_ratio": 1.58
+  },
+  {
+    "date": "2026-03-24",
+    "km7": 62.59,
+    "chronic_weekly": 39.51,
+    "ac_ratio": 1.58
+  },
+  {
+    "date": "2026-03-25",
+    "km7": 58.47,
+    "chronic_weekly": 38.76,
+    "ac_ratio": 1.51
+  },
+  {
+    "date": "2026-03-26",
+    "km7": 47.55,
+    "chronic_weekly": 37.44,
+    "ac_ratio": 1.27
+  },
+  {
+    "date": "2026-03-27",
+    "km7": 46.13,
+    "chronic_weekly": 37.79,
+    "ac_ratio": 1.22
+  },
+  {
+    "date": "2026-03-28",
+    "km7": 48.1,
+    "chronic_weekly": 41.54,
+    "ac_ratio": 1.16
+  },
+  {
+    "date": "2026-03-29",
+    "km7": 48.1,
+    "chronic_weekly": 39.71,
+    "ac_ratio": 1.21
+  },
+  {
+    "date": "2026-03-30",
+    "km7": 32.41,
+    "chronic_weekly": 36.89,
+    "ac_ratio": 0.88
+  },
+  {
+    "date": "2026-03-31",
+    "km7": 45.95,
+    "chronic_weekly": 40.28,
+    "ac_ratio": 1.14
+  },
+  {
+    "date": "2026-04-01",
+    "km7": 53.24,
+    "chronic_weekly": 41.1,
+    "ac_ratio": 1.3
+  },
+  {
+    "date": "2026-04-02",
+    "km7": 59.61,
+    "chronic_weekly": 42.7,
+    "ac_ratio": 1.4
+  },
+  {
+    "date": "2026-04-03",
+    "km7": 48.22,
+    "chronic_weekly": 39.44,
+    "ac_ratio": 1.22
+  },
+  {
+    "date": "2026-04-04",
+    "km7": 33.22,
+    "chronic_weekly": 36.82,
+    "ac_ratio": 0.9
+  },
+  {
+    "date": "2026-04-05",
+    "km7": 33.22,
+    "chronic_weekly": 36.82,
+    "ac_ratio": 0.9
+  },
+  {
+    "date": "2026-04-06",
+    "km7": 33.22,
+    "chronic_weekly": 36.82,
+    "ac_ratio": 0.9
+  },
+  {
+    "date": "2026-04-07",
+    "km7": 29.78,
+    "chronic_weekly": 39.34,
+    "ac_ratio": 0.76
+  },
+  {
+    "date": "2026-04-08",
+    "km7": 16.47,
+    "chronic_weekly": 39.34,
+    "ac_ratio": 0.42
+  },
+  {
+    "date": "2026-04-09",
+    "km7": 16.94,
+    "chronic_weekly": 39.51,
+    "ac_ratio": 0.43
+  },
+  {
+    "date": "2026-04-10",
+    "km7": 16.94,
+    "chronic_weekly": 36.29,
+    "ac_ratio": 0.47
+  },
+  {
+    "date": "2026-04-11",
+    "km7": 38.08,
+    "chronic_weekly": 41.58,
+    "ac_ratio": 0.92
+  },
+  {
+    "date": "2026-04-12",
+    "km7": 48.09,
+    "chronic_weekly": 44.08,
+    "ac_ratio": 1.09
+  },
+  {
+    "date": "2026-04-13",
+    "km7": 48.09,
+    "chronic_weekly": 44.08,
+    "ac_ratio": 1.09
+  },
+  {
+    "date": "2026-04-14",
+    "km7": 37.99,
+    "chronic_weekly": 44.08,
+    "ac_ratio": 0.86
+  },
+  {
+    "date": "2026-04-15",
+    "km7": 37.99,
+    "chronic_weekly": 41.54,
+    "ac_ratio": 0.91
+  },
+  {
+    "date": "2026-04-16",
+    "km7": 31.15,
+    "chronic_weekly": 38.81,
+    "ac_ratio": 0.8
+  },
+  {
+    "date": "2026-04-17",
+    "km7": 40.09,
+    "chronic_weekly": 37.84,
+    "ac_ratio": 1.06
+  },
+  {
+    "date": "2026-04-18",
+    "km7": 32.4,
+    "chronic_weekly": 37.95,
+    "ac_ratio": 0.85
+  },
+  {
+    "date": "2026-04-19",
+    "km7": 35.94,
+    "chronic_weekly": 41.34,
+    "ac_ratio": 0.87
+  },
+  {
+    "date": "2026-04-20",
+    "km7": 40.94,
+    "chronic_weekly": 38.66,
+    "ac_ratio": 1.06
+  },
+  {
+    "date": "2026-04-21",
+    "km7": 63.77,
+    "chronic_weekly": 44.37,
+    "ac_ratio": 1.44
+  },
+  {
+    "date": "2026-04-22",
+    "km7": 72.07,
+    "chronic_weekly": 44.94,
+    "ac_ratio": 1.6
+  },
+  {
+    "date": "2026-04-23",
+    "km7": 72.07,
+    "chronic_weekly": 44.94,
+    "ac_ratio": 1.6
+  },
+  {
+    "date": "2026-04-24",
+    "km7": 63.13,
+    "chronic_weekly": 42.1,
+    "ac_ratio": 1.5
+  },
+  {
+    "date": "2026-04-25",
+    "km7": 60.8,
+    "chronic_weekly": 41.12,
+    "ac_ratio": 1.48
+  },
+  {
+    "date": "2026-04-26",
+    "km7": 47.25,
+    "chronic_weekly": 41.12,
+    "ac_ratio": 1.15
+  },
+  {
+    "date": "2026-04-27",
+    "km7": 64.99,
+    "chronic_weekly": 46.81,
+    "ac_ratio": 1.39
+  },
+  {
+    "date": "2026-04-28",
+    "km7": 53.55,
+    "chronic_weekly": 46.27,
+    "ac_ratio": 1.16
+  },
+  {
+    "date": "2026-04-29",
+    "km7": 45.25,
+    "chronic_weekly": 42.94,
+    "ac_ratio": 1.05
+  },
+  {
+    "date": "2026-04-30",
+    "km7": 45.25,
+    "chronic_weekly": 41.35,
+    "ac_ratio": 1.09
+  },
+  {
+    "date": "2026-05-01",
+    "km7": 45.25,
+    "chronic_weekly": 41.35,
+    "ac_ratio": 1.09
+  },
+  {
+    "date": "2026-05-02",
+    "km7": 43.39,
+    "chronic_weekly": 43.67,
+    "ac_ratio": 0.99
+  },
+  {
+    "date": "2026-05-03",
+    "km7": 46.39,
+    "chronic_weekly": 44.42,
+    "ac_ratio": 1.04
+  },
+  {
+    "date": "2026-05-04",
+    "km7": 31.55,
+    "chronic_weekly": 46.39,
+    "ac_ratio": 0.68
+  },
+  {
+    "date": "2026-05-05",
+    "km7": 25.15,
+    "chronic_weekly": 45.12,
+    "ac_ratio": 0.56
+  },
+  {
+    "date": "2026-05-06",
+    "km7": 25.15,
+    "chronic_weekly": 45.12,
+    "ac_ratio": 0.56
+  },
+  {
+    "date": "2026-05-07",
+    "km7": 25.15,
+    "chronic_weekly": 43.4,
+    "ac_ratio": 0.58
+  },
+  {
+    "date": "2026-05-08",
+    "km7": 35.16,
+    "chronic_weekly": 45.91,
+    "ac_ratio": 0.77
+  },
+  {
+    "date": "2026-05-09",
+    "km7": 39.86,
+    "chronic_weekly": 44.11,
+    "ac_ratio": 0.9
+  },
+  {
+    "date": "2026-05-10",
+    "km7": 36.86,
+    "chronic_weekly": 41.61,
+    "ac_ratio": 0.89
+  },
+  {
+    "date": "2026-05-11",
+    "km7": 35.16,
+    "chronic_weekly": 43.16,
+    "ac_ratio": 0.81
+  },
+  {
+    "date": "2026-05-12",
+    "km7": 44.19,
+    "chronic_weekly": 46.67,
+    "ac_ratio": 0.95
+  },
+  {
+    "date": "2026-05-13",
+    "km7": 54.2,
+    "chronic_weekly": 49.17,
+    "ac_ratio": 1.1
+  },
+  {
+    "date": "2026-05-14",
+    "km7": 66.56,
+    "chronic_weekly": 52.26,
+    "ac_ratio": 1.27
+  },
+  {
+    "date": "2026-05-15",
+    "km7": 59.06,
+    "chronic_weekly": 50.65,
+    "ac_ratio": 1.17
+  },
+  {
+    "date": "2026-05-16",
+    "km7": 51.85,
+    "chronic_weekly": 48.97,
+    "ac_ratio": 1.06
+  },
+  {
+    "date": "2026-05-17",
+    "km7": 51.85,
+    "chronic_weekly": 45.59,
+    "ac_ratio": 1.14
+  },
+  {
+    "date": "2026-05-18",
+    "km7": 56.85,
+    "chronic_weekly": 47.14,
+    "ac_ratio": 1.21
+  },
+  {
+    "date": "2026-05-19",
+    "km7": 42.83,
+    "chronic_weekly": 41.43,
+    "ac_ratio": 1.03
+  },
+  {
+    "date": "2026-05-20",
+    "km7": 49.96,
+    "chronic_weekly": 43.64,
+    "ac_ratio": 1.14
+  },
+  {
+    "date": "2026-05-21",
+    "km7": 46.92,
+    "chronic_weekly": 45.97,
+    "ac_ratio": 1.02
+  },
+  {
+    "date": "2026-05-22",
+    "km7": 58.67,
+    "chronic_weekly": 49.54,
+    "ac_ratio": 1.18
+  },
+  {
+    "date": "2026-05-23",
+    "km7": 51.92,
+    "chronic_weekly": 46.76,
+    "ac_ratio": 1.11
+  },
+  {
+    "date": "2026-05-24",
+    "km7": 56.64,
+    "chronic_weekly": 47.93,
+    "ac_ratio": 1.18
+  },
+  {
+    "date": "2026-05-25",
+    "km7": 52.04,
+    "chronic_weekly": 43.9,
+    "ac_ratio": 1.19
+  },
+  {
+    "date": "2026-05-26",
+    "km7": 52.04,
+    "chronic_weekly": 41.05,
+    "ac_ratio": 1.27
+  },
+  {
+    "date": "2026-05-27",
+    "km7": 34.9,
+    "chronic_weekly": 41.05,
+    "ac_ratio": 0.85
+  },
+  {
+    "date": "2026-05-28",
+    "km7": 30.98,
+    "chronic_weekly": 42.4,
+    "ac_ratio": 0.73
+  },
+  {
+    "date": "2026-05-29",
+    "km7": 16.72,
+    "chronic_weekly": 42.4,
+    "ac_ratio": 0.39
+  },
+  {
+    "date": "2026-05-30",
+    "km7": 23.73,
+    "chronic_weekly": 41.84,
+    "ac_ratio": 0.57
+  },
+  {
+    "date": "2026-05-31",
+    "km7": 28.55,
+    "chronic_weekly": 43.47,
+    "ac_ratio": 0.66
+  },
+  {
+    "date": "2026-06-01",
+    "km7": 21.95,
+    "chronic_weekly": 41.5,
+    "ac_ratio": 0.53
+  },
+  {
+    "date": "2026-06-02",
+    "km7": 37.32,
+    "chronic_weekly": 44.09,
+    "ac_ratio": 0.85
+  },
+  {
+    "date": "2026-06-03",
+    "km7": 48.54,
+    "chronic_weekly": 46.9,
+    "ac_ratio": 1.03
+  },
+  {
+    "date": "2026-06-04",
+    "km7": 43.14,
+    "chronic_weekly": 46.9,
+    "ac_ratio": 0.92
+  },
+  {
+    "date": "2026-06-05",
+    "km7": 43.14,
+    "chronic_weekly": 44.4,
+    "ac_ratio": 0.97
+  },
+  {
+    "date": "2026-06-06",
+    "km7": 36.13,
+    "chronic_weekly": 40.91,
+    "ac_ratio": 0.88
+  },
+  {
+    "date": "2026-06-07",
+    "km7": 26.59,
+    "chronic_weekly": 40.91,
+    "ac_ratio": 0.65
+  },
+  {
+    "date": "2026-06-08",
+    "km7": 26.59,
+    "chronic_weekly": 39.36,
+    "ac_ratio": 0.68
+  },
+  {
+    "date": "2026-06-09",
+    "km7": 11.22,
+    "chronic_weekly": 35.85,
+    "ac_ratio": 0.31
+  },
+  {
+    "date": "2026-06-10",
+    "km7": 0.0,
+    "chronic_weekly": 33.35,
+    "ac_ratio": 0.0
+  },
+  {
+    "date": "2026-06-11",
+    "km7": 0.0,
+    "chronic_weekly": 30.26,
+    "ac_ratio": 0.0
+  },
+  {
+    "date": "2026-06-12",
+    "km7": 12.51,
+    "chronic_weekly": 32.76,
+    "ac_ratio": 0.38
+  },
+  {
+    "date": "2026-06-13",
+    "km7": 22.52,
+    "chronic_weekly": 33.58,
+    "ac_ratio": 0.67
+  },
+  {
+    "date": "2026-06-14",
+    "km7": 27.03,
+    "chronic_weekly": 34.7,
+    "ac_ratio": 0.78
+  },
+  {
+    "date": "2026-06-15",
+    "km7": 33.05,
+    "chronic_weekly": 33.41,
+    "ac_ratio": 0.99
+  },
+  {
+    "date": "2026-06-16",
+    "km7": 43.74,
+    "chronic_weekly": 36.08,
+    "ac_ratio": 1.21
+  },
+  {
+    "date": "2026-06-17",
+    "km7": 49.75,
+    "chronic_weekly": 33.3,
+    "ac_ratio": 1.49
+  },
+  {
+    "date": "2026-06-18",
+    "km7": 49.75,
+    "chronic_weekly": 30.97,
+    "ac_ratio": 1.61
+  },
+  {
+    "date": "2026-06-19",
+    "km7": 47.36,
+    "chronic_weekly": 29.93,
+    "ac_ratio": 1.58
+  },
+  {
+    "date": "2026-06-20",
+    "km7": 44.36,
+    "chronic_weekly": 31.68,
+    "ac_ratio": 1.4
+  },
+  {
+    "date": "2026-06-21",
+    "km7": 44.89,
+    "chronic_weekly": 31.76,
+    "ac_ratio": 1.41
+  },
+  {
+    "date": "2026-06-22",
+    "km7": 45.37,
+    "chronic_weekly": 31.74,
+    "ac_ratio": 1.43
+  },
+  {
+    "date": "2026-06-23",
+    "km7": 34.68,
+    "chronic_weekly": 31.74,
+    "ac_ratio": 1.09
+  },
+  {
+    "date": "2026-06-24",
+    "km7": 40.32,
+    "chronic_weekly": 34.65,
+    "ac_ratio": 1.16
+  },
+  {
+    "date": "2026-06-25",
+    "km7": 50.33,
+    "chronic_weekly": 35.8,
+    "ac_ratio": 1.41
+  },
+  {
+    "date": "2026-06-26",
+    "km7": 52.41,
+    "chronic_weekly": 38.85,
+    "ac_ratio": 1.35
+  },
+  {
+    "date": "2026-06-27",
+    "km7": 53.45,
+    "chronic_weekly": 39.11,
+    "ac_ratio": 1.37
+  },
+  {
+    "date": "2026-06-28",
+    "km7": 48.41,
+    "chronic_weekly": 36.73,
+    "ac_ratio": 1.32
+  },
+  {
+    "date": "2026-06-29",
+    "km7": 46.93,
+    "chronic_weekly": 37.99,
+    "ac_ratio": 1.24
+  },
+  {
+    "date": "2026-06-30",
+    "km7": 56.96,
+    "chronic_weekly": 36.65,
+    "ac_ratio": 1.55
+  },
+  {
+    "date": "2026-07-01",
+    "km7": 55.32,
+    "chronic_weekly": 36.35,
+    "ac_ratio": 1.52
+  },
+  {
+    "date": "2026-07-02",
+    "km7": 45.31,
+    "chronic_weekly": 36.35,
+    "ac_ratio": 1.25
+  },
+  {
+    "date": "2026-07-03",
+    "km7": 33.11,
+    "chronic_weekly": 36.35,
+    "ac_ratio": 0.91
+  },
+  {
+    "date": "2026-07-04",
+    "km7": 30.52,
+    "chronic_weekly": 37.71,
+    "ac_ratio": 0.81
+  },
+  {
+    "date": "2026-07-05",
+    "km7": 39.6,
+    "chronic_weekly": 39.98,
+    "ac_ratio": 0.99
+  },
+  {
+    "date": "2026-07-06",
+    "km7": 34.58,
+    "chronic_weekly": 39.98,
+    "ac_ratio": 0.86
+  },
+  {
+    "date": "2026-07-07",
+    "km7": 31.56,
+    "chronic_weekly": 41.74,
+    "ac_ratio": 0.76
+  },
+  {
+    "date": "2026-07-08",
+    "km7": 37.28,
+    "chronic_weekly": 45.67,
+    "ac_ratio": 0.82
+  },
+  {
+    "date": "2026-07-09",
+    "km7": 47.29,
+    "chronic_weekly": 48.17,
+    "ac_ratio": 0.98
+  },
+  {
+    "date": "2026-07-10",
+    "km7": 61.58,
+    "chronic_weekly": 48.61,
+    "ac_ratio": 1.27
+  },
+  {
+    "date": "2026-07-11",
+    "km7": 56.12,
+    "chronic_weekly": 46.11,
+    "ac_ratio": 1.22
+  },
+  {
+    "date": "2026-07-12",
+    "km7": 53.05,
+    "chronic_weekly": 46.49,
+    "ac_ratio": 1.14
+  },
+  {
+    "date": "2026-07-13",
+    "km7": 60.09,
+    "chronic_weekly": 46.74,
+    "ac_ratio": 1.29
+  },
+  {
+    "date": "2026-07-14",
+    "km7": 59.58,
+    "chronic_weekly": 45.69,
+    "ac_ratio": 1.3
+  },
+  {
+    "date": "2026-07-15",
+    "km7": 54.86,
+    "chronic_weekly": 46.94,
+    "ac_ratio": 1.17
+  },
+  {
+    "date": "2026-07-16",
+    "km7": 44.85,
+    "chronic_weekly": 46.94,
+    "ac_ratio": 0.96
+  },
+  {
+    "date": "2026-07-17",
+    "km7": 37.56,
+    "chronic_weekly": 46.16,
+    "ac_ratio": 0.81
+  },
+  {
+    "date": "2026-07-18",
+    "km7": 48.82,
+    "chronic_weekly": 47.23,
+    "ac_ratio": 1.03
+  },
+  {
+    "date": "2026-07-19",
+    "km7": 42.81,
+    "chronic_weekly": 45.97,
+    "ac_ratio": 0.93
+  },
+  {
+    "date": "2026-07-20",
+    "km7": 46.43,
+    "chronic_weekly": 47.01,
+    "ac_ratio": 0.99
+  },
+  {
+    "date": "2026-07-21",
+    "km7": 47.93,
+    "chronic_weekly": 49.01,
+    "ac_ratio": 0.98
+  },
+  {
+    "date": "2026-07-22",
+    "km7": 42.48,
+    "chronic_weekly": 47.48,
+    "ac_ratio": 0.89
+  },
+  {
+    "date": "2026-07-23",
+    "km7": 48.11,
+    "chronic_weekly": 46.39,
+    "ac_ratio": 1.04
+  },
+  {
+    "date": "2026-07-24",
+    "km7": 48.12,
+    "chronic_weekly": 45.09,
+    "ac_ratio": 1.07
+  },
+  {
+    "date": "2026-07-25",
+    "km7": 46.87,
+    "chronic_weekly": 45.58,
+    "ac_ratio": 1.03
+  },
+  {
+    "date": "2026-07-26",
+    "km7": 53.89,
+    "chronic_weekly": 47.34,
+    "ac_ratio": 1.14
+  },
+  {
+    "date": "2026-07-27",
+    "km7": 49.77,
+    "chronic_weekly": 47.72,
+    "ac_ratio": 1.04
+  },
+  {
+    "date": "2026-07-28",
+    "km7": 41.77,
+    "chronic_weekly": 45.21,
+    "ac_ratio": 0.92
+  },
+  {
+    "date": "2026-07-29",
+    "km7": 36.21,
+    "chronic_weekly": 42.71,
+    "ac_ratio": 0.85
+  },
+  {
+    "date": "2026-07-30",
+    "km7": 30.58,
+    "chronic_weekly": 42.71,
+    "ac_ratio": 0.72
+  },
+  {
+    "date": "2026-07-31",
+    "km7": 23.57,
+    "chronic_weekly": 42.71,
+    "ac_ratio": 0.55
+  },
+  {
+    "date": "2026-08-01",
+    "km7": 13.56,
+    "chronic_weekly": 41.34,
+    "ac_ratio": 0.33
+  },
+  {
+    "date": "2026-08-02",
+    "km7": 6.54,
+    "chronic_weekly": 39.07,
+    "ac_ratio": 0.17
+  },
+  {
+    "date": "2026-08-03",
+    "km7": 0.0,
+    "chronic_weekly": 39.07,
+    "ac_ratio": 0.0
+  },
+  {
+    "date": "2026-08-04",
+    "km7": 5.02,
+    "chronic_weekly": 38.57,
+    "ac_ratio": 0.13
+  },
+  {
+    "date": "2026-08-05",
+    "km7": 11.17,
+    "chronic_weekly": 36.18,
+    "ac_ratio": 0.31
+  },
+  {
+    "date": "2026-08-06",
+    "km7": 21.18,
+    "chronic_weekly": 36.18,
+    "ac_ratio": 0.59
+  },
+  {
+    "date": "2026-08-07",
+    "km7": 26.19,
+    "chronic_weekly": 33.86,
+    "ac_ratio": 0.77
+  },
+  {
+    "date": "2026-08-08",
+    "km7": 34.38,
+    "chronic_weekly": 35.91,
+    "ac_ratio": 0.96
+  },
+  {
+    "date": "2026-08-09",
+    "km7": 34.38,
+    "chronic_weekly": 34.4,
+    "ac_ratio": 1.0
+  },
+  {
+    "date": "2026-08-10",
+    "km7": 42.39,
+    "chronic_weekly": 34.65,
+    "ac_ratio": 1.22
+  },
+  {
+    "date": "2026-08-11",
+    "km7": 44.39,
+    "chronic_weekly": 34.78,
+    "ac_ratio": 1.28
+  },
+  {
+    "date": "2026-08-12",
+    "km7": 45.51,
+    "chronic_weekly": 33.84,
+    "ac_ratio": 1.34
+  },
+  {
+    "date": "2026-08-13",
+    "km7": 35.5,
+    "chronic_weekly": 33.84,
+    "ac_ratio": 1.05
+  },
+  {
+    "date": "2026-08-14",
+    "km7": 48.64,
+    "chronic_weekly": 36.63,
+    "ac_ratio": 1.33
+  },
+  {
+    "date": "2026-08-15",
+    "km7": 46.46,
+    "chronic_weekly": 35.32,
+    "ac_ratio": 1.32
+  },
+  {
+    "date": "2026-08-16",
+    "km7": 52.47,
+    "chronic_weekly": 36.82,
+    "ac_ratio": 1.43
+  },
+  {
+    "date": "2026-08-17",
+    "km7": 44.46,
+    "chronic_weekly": 34.15,
+    "ac_ratio": 1.3
+  },
+  {
+    "date": "2026-08-18",
+    "km7": 47.44,
+    "chronic_weekly": 34.66,
+    "ac_ratio": 1.37
+  },
+  {
+    "date": "2026-08-19",
+    "km7": 50.19,
+    "chronic_weekly": 35.77,
+    "ac_ratio": 1.4
+  },
+  {
+    "date": "2026-08-20",
+    "km7": 70.71,
+    "chronic_weekly": 39.49,
+    "ac_ratio": 1.79
+  },
+  {
+    "date": "2026-08-21",
+    "km7": 62.94,
+    "chronic_weekly": 40.34,
+    "ac_ratio": 1.56
+  },
+  {
+    "date": "2026-08-22",
+    "km7": 62.94,
+    "chronic_weekly": 39.33,
+    "ac_ratio": 1.6
+  },
+  {
+    "date": "2026-08-23",
+    "km7": 62.95,
+    "chronic_weekly": 39.08,
+    "ac_ratio": 1.61
+  },
+  {
+    "date": "2026-08-24",
+    "km7": 72.96,
+    "chronic_weekly": 39.95,
+    "ac_ratio": 1.83
+  },
+  {
+    "date": "2026-08-25",
+    "km7": 72.97,
+    "chronic_weekly": 42.45,
+    "ac_ratio": 1.72
+  },
+  {
+    "date": "2026-08-26",
+    "km7": 68.96,
+    "chronic_weekly": 43.96,
+    "ac_ratio": 1.57
+  },
+  {
+    "date": "2026-08-27",
+    "km7": 62.45,
+    "chronic_weekly": 47.46,
+    "ac_ratio": 1.32
+  },
+  {
+    "date": "2026-08-28",
+    "km7": 71.2,
+    "chronic_weekly": 52.24,
+    "ac_ratio": 1.36
+  },
+  {
+    "date": "2026-08-29",
+    "km7": 75.41,
+    "chronic_weekly": 54.8,
+    "ac_ratio": 1.38
+  },
+  {
+    "date": "2026-08-30",
+    "km7": 79.4,
+    "chronic_weekly": 57.3,
+    "ac_ratio": 1.39
+  },
+  {
+    "date": "2026-08-31",
+    "km7": 77.57,
+    "chronic_weekly": 59.34,
+    "ac_ratio": 1.31
+  },
+  {
+    "date": "2026-09-01",
+    "km7": 78.95,
+    "chronic_weekly": 60.94,
+    "ac_ratio": 1.3
+  },
+  {
+    "date": "2026-09-02",
+    "km7": 89.92,
+    "chronic_weekly": 63.64,
+    "ac_ratio": 1.41
+  },
+  {
+    "date": "2026-09-03",
+    "km7": 81.93,
+    "chronic_weekly": 62.65,
+    "ac_ratio": 1.31
+  },
+  {
+    "date": "2026-09-04",
+    "km7": 88.95,
+    "chronic_weekly": 67.93,
+    "ac_ratio": 1.31
+  },
+  {
+    "date": "2026-09-05",
+    "km7": 100.15,
+    "chronic_weekly": 71.24,
+    "ac_ratio": 1.41
+  },
+  {
+    "date": "2026-09-06",
+    "km7": 90.14,
+    "chronic_weekly": 71.24,
+    "ac_ratio": 1.27
+  },
+  {
+    "date": "2026-09-07",
+    "km7": 96.33,
+    "chronic_weekly": 72.83,
+    "ac_ratio": 1.32
+  },
+  {
+    "date": "2026-09-08",
+    "km7": 89.95,
+    "chronic_weekly": 72.33,
+    "ac_ratio": 1.24
+  },
+  {
+    "date": "2026-09-09",
+    "km7": 72.97,
+    "chronic_weekly": 70.51,
+    "ac_ratio": 1.03
+  },
+  {
+    "date": "2026-09-10",
+    "km7": 88.25,
+    "chronic_weekly": 75.83,
+    "ac_ratio": 1.16
+  },
+  {
+    "date": "2026-09-11",
+    "km7": 87.11,
+    "chronic_weekly": 77.55,
+    "ac_ratio": 1.12
+  },
+  {
+    "date": "2026-09-12",
+    "km7": 76.7,
+    "chronic_weekly": 78.8,
+    "ac_ratio": 0.97
+  },
+  {
+    "date": "2026-09-13",
+    "km7": 97.83,
+    "chronic_weekly": 82.58,
+    "ac_ratio": 1.18
+  },
+  {
+    "date": "2026-09-14",
+    "km7": 83.46,
+    "chronic_weekly": 82.58,
+    "ac_ratio": 1.01
+  },
+  {
+    "date": "2026-09-15",
+    "km7": 91.46,
+    "chronic_weekly": 83.33,
+    "ac_ratio": 1.1
+  },
+  {
+    "date": "2026-09-16",
+    "km7": 103.47,
+    "chronic_weekly": 83.83,
+    "ac_ratio": 1.23
+  },
+  {
+    "date": "2026-09-17",
+    "km7": 100.18,
+    "chronic_weekly": 83.2,
+    "ac_ratio": 1.2
+  },
+  {
+    "date": "2026-09-18",
+    "km7": 92.01,
+    "chronic_weekly": 84.82,
+    "ac_ratio": 1.08
+  },
+  {
+    "date": "2026-09-19",
+    "km7": 102.12,
+    "chronic_weekly": 88.59,
+    "ac_ratio": 1.15
+  },
+  {
+    "date": "2026-09-20",
+    "km7": 80.99,
+    "chronic_weekly": 87.09,
+    "ac_ratio": 0.93
+  },
+  {
+    "date": "2026-09-21",
+    "km7": 80.99,
+    "chronic_weekly": 84.59,
+    "ac_ratio": 0.96
+  },
+  {
+    "date": "2026-09-22",
+    "km7": 77.99,
+    "chronic_weekly": 84.59,
+    "ac_ratio": 0.92
+  },
+  {
+    "date": "2026-09-23",
+    "km7": 65.98,
+    "chronic_weekly": 83.08,
+    "ac_ratio": 0.79
+  },
+  {
+    "date": "2026-09-24",
+    "km7": 47.97,
+    "chronic_weekly": 79.58,
+    "ac_ratio": 0.6
+  },
+  {
+    "date": "2026-09-25",
+    "km7": 49.27,
+    "chronic_weekly": 79.34,
+    "ac_ratio": 0.62
+  },
+  {
+    "date": "2026-09-26",
+    "km7": 51.23,
+    "chronic_weekly": 82.55,
+    "ac_ratio": 0.62
+  },
+  {
+    "date": "2026-09-27",
+    "km7": 62.33,
+    "chronic_weekly": 82.82,
+    "ac_ratio": 0.75
+  },
+  {
+    "date": "2026-09-28",
+    "km7": 83.43,
+    "chronic_weekly": 86.05,
+    "ac_ratio": 0.97
+  },
+  {
+    "date": "2026-09-29",
+    "km7": 85.71,
+    "chronic_weekly": 86.28,
+    "ac_ratio": 0.99
+  },
+  {
+    "date": "2026-09-30",
+    "km7": 99.32,
+    "chronic_weekly": 85.44,
+    "ac_ratio": 1.16
+  },
+  {
+    "date": "2026-10-01",
+    "km7": 113.83,
+    "chronic_weekly": 87.56,
+    "ac_ratio": 1.3
+  },
+  {
+    "date": "2026-10-02",
+    "km7": 111.54,
+    "chronic_weekly": 84.98,
+    "ac_ratio": 1.31
+  },
+  {
+    "date": "2026-10-03",
+    "km7": 104.75,
+    "chronic_weekly": 83.7,
+    "ac_ratio": 1.25
+  },
+  {
+    "date": "2026-10-04",
+    "km7": 109.49,
+    "chronic_weekly": 87.66,
+    "ac_ratio": 1.25
+  },
+  {
+    "date": "2026-10-05",
+    "km7": 105.93,
+    "chronic_weekly": 88.45,
+    "ac_ratio": 1.2
+  },
+  {
+    "date": "2026-10-06",
+    "km7": 100.67,
+    "chronic_weekly": 88.96,
+    "ac_ratio": 1.13
+  },
+  {
+    "date": "2026-10-07",
+    "km7": 92.69,
+    "chronic_weekly": 90.36,
+    "ac_ratio": 1.03
+  },
+  {
+    "date": "2026-10-08",
+    "km7": 83.92,
+    "chronic_weekly": 86.48,
+    "ac_ratio": 0.97
+  },
+  {
+    "date": "2026-10-09",
+    "km7": 92.17,
+    "chronic_weekly": 86.25,
+    "ac_ratio": 1.07
+  },
+  {
+    "date": "2026-10-10",
+    "km7": 75.88,
+    "chronic_weekly": 83.5,
+    "ac_ratio": 0.91
+  },
+  {
+    "date": "2026-10-11",
+    "km7": 70.04,
+    "chronic_weekly": 80.71,
+    "ac_ratio": 0.87
+  },
+  {
+    "date": "2026-10-12",
+    "km7": 52.5,
+    "chronic_weekly": 80.71,
+    "ac_ratio": 0.65
+  },
+  {
+    "date": "2026-10-13",
+    "km7": 60.93,
+    "chronic_weekly": 81.32,
+    "ac_ratio": 0.75
+  },
+  {
+    "date": "2026-10-14",
+    "km7": 75.36,
+    "chronic_weekly": 83.34,
+    "ac_ratio": 0.9
+  },
+  {
+    "date": "2026-10-15",
+    "km7": 81.64,
+    "chronic_weekly": 81.84,
+    "ac_ratio": 1.0
+  },
+  {
+    "date": "2026-10-16",
+    "km7": 90.61,
+    "chronic_weekly": 85.9,
+    "ac_ratio": 1.05
+  },
+  {
+    "date": "2026-10-17",
+    "km7": 111.75,
+    "chronic_weekly": 85.9,
+    "ac_ratio": 1.3
+  },
+  {
+    "date": "2026-10-18",
+    "km7": 118.76,
+    "chronic_weekly": 90.15,
+    "ac_ratio": 1.32
+  },
+  {
+    "date": "2026-10-19",
+    "km7": 118.76,
+    "chronic_weekly": 90.15,
+    "ac_ratio": 1.32
+  },
+  {
+    "date": "2026-10-20",
+    "km7": 125.11,
+    "chronic_weekly": 93.1,
+    "ac_ratio": 1.34
+  },
+  {
+    "date": "2026-10-21",
+    "km7": 122.06,
+    "chronic_weekly": 97.36,
+    "ac_ratio": 1.25
+  },
+  {
+    "date": "2026-10-22",
+    "km7": 131.16,
+    "chronic_weekly": 102.64,
+    "ac_ratio": 1.28
+  },
+  {
+    "date": "2026-10-23",
+    "km7": 111.84,
+    "chronic_weekly": 101.54,
+    "ac_ratio": 1.1
+  },
+  {
+    "date": "2026-10-24",
+    "km7": 90.7,
+    "chronic_weekly": 95.77,
+    "ac_ratio": 0.95
+  },
+  {
+    "date": "2026-10-25",
+    "km7": 89.01,
+    "chronic_weekly": 96.82,
+    "ac_ratio": 0.92
+  },
+  {
+    "date": "2026-10-26",
+    "km7": 104.02,
+    "chronic_weekly": 95.3,
+    "ac_ratio": 1.09
+  },
+  {
+    "date": "2026-10-27",
+    "km7": 105.21,
+    "chronic_weekly": 97.98,
+    "ac_ratio": 1.07
+  },
+  {
+    "date": "2026-10-28",
+    "km7": 88.2,
+    "chronic_weekly": 94.58,
+    "ac_ratio": 0.93
+  },
+  {
+    "date": "2026-10-29",
+    "km7": 83.09,
+    "chronic_weekly": 94.95,
+    "ac_ratio": 0.88
+  },
+  {
+    "date": "2026-10-30",
+    "km7": 85.35,
+    "chronic_weekly": 94.99,
+    "ac_ratio": 0.9
+  }
+]

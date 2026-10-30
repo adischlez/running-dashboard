@@ -1,0 +1,56 @@
+{
+  "athlete": "Adi Schlesinger",
+  "coverage_start": "2025-03-18",
+  "coverage_end": "2026-10-30",
+  "built_from": "Garmin Connect export (aggregated; no activity clock stamps)",
+  "total_runs": 519,
+  "total_km": 4196.1,
+  "record_month": "2026-10",
+  "record_month_km": 410.3,
+  "vo2max": 52.2,
+  "prs": [
+    {
+      "label": "5K",
+      "value": "21:07",
+      "note": "משך"
+    },
+    {
+      "label": "10K",
+      "value": "46:25",
+      "note": "משך"
+    },
+    {
+      "label": "חצי מרתון",
+      "value": "1:46:38",
+      "note": "משך"
+    },
+    {
+      "label": "מרתון",
+      "value": "4:18:35",
+      "note": "משך"
+    },
+    {
+      "label": "הכי רחוק",
+      "value": "50.0 ק״מ",
+      "note": "מרחק"
+    }
+  ],
+  "race_predictor": [
+    {
+      "label": "5K",
+      "value": "21:14"
+    },
+    {
+      "label": "10K",
+      "value": "44:38"
+    },
+    {
+      "label": "חצי מרתון",
+      "value": "1:38:25"
+    },
+    {
+      "label": "מרתון",
+      "value": "3:33:15"
+    }
+  ]
+}

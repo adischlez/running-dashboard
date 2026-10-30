@@ -1,0 +1,162 @@
+[
+  {
+    "month": "2025-03",
+    "easy_runs": 13,
+    "km": 89.0,
+    "avg_hr": 138.5,
+    "avg_pace_sec": 343,
+    "avg_pace_label": "5:43 /ק״מ"
+  },
+  {
+    "month": "2025-04",
+    "easy_runs": 14,
+    "km": 91.3,
+    "avg_hr": 136.7,
+    "avg_pace_sec": 342,
+    "avg_pace_label": "5:42 /ק״מ"
+  },
+  {
+    "month": "2025-05",
+    "easy_runs": 15,
+    "km": 137.6,
+    "avg_hr": 128.3,
+    "avg_pace_sec": 351,
+    "avg_pace_label": "5:51 /ק״מ"
+  },
+  {
+    "month": "2025-06",
+    "easy_runs": 17,
+    "km": 162.5,
+    "avg_hr": 126.0,
+    "avg_pace_sec": 354,
+    "avg_pace_label": "5:54 /ק״מ"
+  },
+  {
+    "month": "2025-07",
+    "easy_runs": 3,
+    "km": 27.8,
+    "avg_hr": 142.3,
+    "avg_pace_sec": 336,
+    "avg_pace_label": "5:36 /ק״מ"
+  },
+  {
+    "month": "2025-08",
+    "easy_runs": 24,
+    "km": 166.6,
+    "avg_hr": 140.5,
+    "avg_pace_sec": 342,
+    "avg_pace_label": "5:42 /ק״מ"
+  },
+  {
+    "month": "2025-09",
+    "easy_runs": 17,
+    "km": 143.3,
+    "avg_hr": 136.3,
+    "avg_pace_sec": 340,
+    "avg_pace_label": "5:40 /ק״מ"
+  },
+  {
+    "month": "2025-10",
+    "easy_runs": 8,
+    "km": 69.2,
+    "avg_hr": 136.6,
+    "avg_pace_sec": 329,
+    "avg_pace_label": "5:29 /ק״מ"
+  },
+  {
+    "month": "2025-11",
+    "easy_runs": 7,
+    "km": 41.4,
+    "avg_hr": 137.0,
+    "avg_pace_sec": 349,
+    "avg_pace_label": "5:49 /ק״מ"
+  },
+  {
+    "month": "2025-12",
+    "easy_runs": 1,
+    "km": 1.2,
+    "avg_hr": 140.0,
+    "avg_pace_sec": 342,
+    "avg_pace_label": "5:42 /ק״מ"
+  },
+  {
+    "month": "2026-01",
+    "easy_runs": 2,
+    "km": 51.0,
+    "avg_hr": 130.0,
+    "avg_pace_sec": 362,
+    "avg_pace_label": "6:02 /ק״מ"
+  },
+  {
+    "month": "2026-02",
+    "easy_runs": 3,
+    "km": 31.4,
+    "avg_hr": 132.7,
+    "avg_pace_sec": 341,
+    "avg_pace_label": "5:41 /ק״מ"
+  },
+  {
+    "month": "2026-03",
+    "easy_runs": 5,
+    "km": 45.7,
+    "avg_hr": 139.0,
+    "avg_pace_sec": 339,
+    "avg_pace_label": "5:39 /ק״מ"
+  },
+  {
+    "month": "2026-04",
+    "easy_runs": 6,
+    "km": 49.5,
+    "avg_hr": 139.0,
+    "avg_pace_sec": 334,
+    "avg_pace_label": "5:34 /ק״מ"
+  },
+  {
+    "month": "2026-05",
+    "easy_runs": 4,
+    "km": 27.9,
+    "avg_hr": 131.5,
+    "avg_pace_sec": 338,
+    "avg_pace_label": "5:38 /ק״מ"
+  },
+  {
+    "month": "2026-06",
+    "easy_runs": 9,
+    "km": 63.7,
+    "avg_hr": 136.6,
+    "avg_pace_sec": 330,
+    "avg_pace_label": "5:30 /ק״מ"
+  },
+  {
+    "month": "2026-07",
+    "easy_runs": 5,
+    "km": 45.2,
+    "avg_hr": 138.0,
+    "avg_pace_sec": 323,
+    "avg_pace_label": "5:23 /ק״מ"
+  },
+  {
+    "month": "2026-08",
+    "easy_runs": 20,
+    "km": 158.8,
+    "avg_hr": 136.3,
+    "avg_pace_sec": 336,
+    "avg_pace_label": "5:36 /ק״מ"
+  },
+  {
+    "month": "2026-09",
+    "easy_runs": 19,
+    "km": 237.7,
+    "avg_hr": 132.6,
+    "avg_pace_sec": 345,
+    "avg_pace_label": "5:45 /ק״מ"
+  },
+  {
+    "month": "2026-10",
+    "easy_runs": 21,
+    "km": 331.2,
+    "avg_hr": 129.8,
+    "avg_pace_sec": 340,
+    "avg_pace_label": "5:40 /ק״מ"
+  }
+]
